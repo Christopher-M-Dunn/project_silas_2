@@ -1,0 +1,34 @@
+# World configuration defaults
+# These can be overridden per-world at creation time
+
+time:
+  time_scale: 1.0           # 1.0 = real time
+  autosave_interval: 15     # minutes between autosaves
+
+healing:
+  base_healing_rate: 0.05   # severity points per game-hour (untreated)
+  treatment_multiplier: 3.0 # healing rate multiplier when treated
+  blood_loss_decay: 0.9     # blood loss reduction per tick (treated)
+  blood_loss_growth: 1.05   # blood loss increase per tick (untreated)
+  fatal_blood_loss: 50.0    # blood loss percentage that kills
+
+memory:
+  retrieval_limit: 10
+  decay_rate: 0.995
+  consolidation_threshold: 50
+  weight_relevance: 0.5
+  weight_importance: 0.3
+  weight_recency: 0.2
+
+npc:
+  reaction_concurrency: 4   # max NPCs reacting simultaneously
+  idle_chance: 0.3          # chance an NPC does nothing on their turn
+  memory_importance_speech: 4
+  memory_importance_combat: 8
+  memory_importance_movement: 2
+
+relationship:
+  speech_trust_delta: 1
+  attack_trust_delta: -2
+  attack_rivalry_delta: 2
+  attack_fear_delta: 1

@@ -1,0 +1,123 @@
+# Species body part templates
+# Each species defines its standard body parts.
+# When a character is created, body parts are instantiated from these templates.
+# 0 attributes on a body part means it hasn't been described yet.
+
+species:
+  human:
+    body_parts:
+      - { part_name: "head", part_category: "head", is_vital: true, sort_order: 1 }
+      - { part_name: "face", part_category: "head", is_vital: false, sort_order: 2 }
+      - { part_name: "neck", part_category: "torso", is_vital: true, sort_order: 3 }
+      - { part_name: "chest", part_category: "torso", is_vital: true, sort_order: 4 }
+      - { part_name: "abdomen", part_category: "torso", is_vital: true, sort_order: 5 }
+      - { part_name: "upper back", part_category: "torso", is_vital: false, sort_order: 6 }
+      - { part_name: "lower back", part_category: "torso", is_vital: false, sort_order: 7 }
+      - { part_name: "left shoulder", part_category: "limb", is_vital: false, sort_order: 8 }
+      - { part_name: "right shoulder", part_category: "limb", is_vital: false, sort_order: 9 }
+      - { part_name: "left upper arm", part_category: "limb", is_vital: false, sort_order: 10 }
+      - { part_name: "right upper arm", part_category: "limb", is_vital: false, sort_order: 11 }
+      - { part_name: "left forearm", part_category: "limb", is_vital: false, sort_order: 12 }
+      - { part_name: "right forearm", part_category: "limb", is_vital: false, sort_order: 13 }
+      - { part_name: "left hand", part_category: "limb", is_vital: false, sort_order: 14 }
+      - { part_name: "right hand", part_category: "limb", is_vital: false, sort_order: 15 }
+      - { part_name: "left thigh", part_category: "limb", is_vital: false, sort_order: 16 }
+      - { part_name: "right thigh", part_category: "limb", is_vital: false, sort_order: 17 }
+      - { part_name: "left shin", part_category: "limb", is_vital: false, sort_order: 18 }
+      - { part_name: "right shin", part_category: "limb", is_vital: false, sort_order: 19 }
+      - { part_name: "left foot", part_category: "limb", is_vital: false, sort_order: 20 }
+      - { part_name: "right foot", part_category: "limb", is_vital: false, sort_order: 21 }
+
+  elf:
+    body_parts:
+      - { part_name: "head", part_category: "head", is_vital: true, sort_order: 1 }
+      - { part_name: "face", part_category: "head", is_vital: false, sort_order: 2 }
+      - { part_name: "pointed ears", part_category: "head", is_vital: false, sort_order: 3 }
+      - { part_name: "neck", part_category: "torso", is_vital: true, sort_order: 4 }
+      - { part_name: "chest", part_category: "torso", is_vital: true, sort_order: 5 }
+      - { part_name: "abdomen", part_category: "torso", is_vital: true, sort_order: 6 }
+      - { part_name: "upper back", part_category: "torso", is_vital: false, sort_order: 7 }
+      - { part_name: "lower back", part_category: "torso", is_vital: false, sort_order: 8 }
+      - { part_name: "left shoulder", part_category: "limb", is_vital: false, sort_order: 9 }
+      - { part_name: "right shoulder", part_category: "limb", is_vital: false, sort_order: 10 }
+      - { part_name: "left upper arm", part_category: "limb", is_vital: false, sort_order: 11 }
+      - { part_name: "right upper arm", part_category: "limb", is_vital: false, sort_order: 12 }
+      - { part_name: "left forearm", part_category: "limb", is_vital: false, sort_order: 13 }
+      - { part_name: "right forearm", part_category: "limb", is_vital: false, sort_order: 14 }
+      - { part_name: "left hand", part_category: "limb", is_vital: false, sort_order: 15 }
+      - { part_name: "right hand", part_category: "limb", is_vital: false, sort_order: 16 }
+      - { part_name: "left thigh", part_category: "limb", is_vital: false, sort_order: 17 }
+      - { part_name: "right thigh", part_category: "limb", is_vital: false, sort_order: 18 }
+      - { part_name: "left shin", part_category: "limb", is_vital: false, sort_order: 19 }
+      - { part_name: "right shin", part_category: "limb", is_vital: false, sort_order: 20 }
+      - { part_name: "left foot", part_category: "limb", is_vital: false, sort_order: 21 }
+      - { part_name: "right foot", part_category: "limb", is_vital: false, sort_order: 22 }
+
+  halfling:
+    body_parts:
+      - { part_name: "head", part_category: "head", is_vital: true, sort_order: 1 }
+      - { part_name: "face", part_category: "head", is_vital: false, sort_order: 2 }
+      - { part_name: "neck", part_category: "torso", is_vital: true, sort_order: 3 }
+      - { part_name: "chest", part_category: "torso", is_vital: true, sort_order: 4 }
+      - { part_name: "abdomen", part_category: "torso", is_vital: true, sort_order: 5 }
+      - { part_name: "upper back", part_category: "torso", is_vital: false, sort_order: 6 }
+      - { part_name: "lower back", part_category: "torso", is_vital: false, sort_order: 7 }
+      - { part_name: "left shoulder", part_category: "limb", is_vital: false, sort_order: 8 }
+      - { part_name: "right shoulder", part_category: "limb", is_vital: false, sort_order: 9 }
+      - { part_name: "left upper arm", part_category: "limb", is_vital: false, sort_order: 10 }
+      - { part_name: "right upper arm", part_category: "limb", is_vital: false, sort_order: 11 }
+      - { part_name: "left forearm", part_category: "limb", is_vital: false, sort_order: 12 }
+      - { part_name: "right forearm", part_category: "limb", is_vital: false, sort_order: 13 }
+      - { part_name: "left hand", part_category: "limb", is_vital: false, sort_order: 14 }
+      - { part_name: "right hand", part_category: "limb", is_vital: false, sort_order: 15 }
+      - { part_name: "left thigh", part_category: "limb", is_vital: false, sort_order: 16 }
+      - { part_name: "right thigh", part_category: "limb", is_vital: false, sort_order: 17 }
+      - { part_name: "left shin", part_category: "limb", is_vital: false, sort_order: 18 }
+      - { part_name: "right shin", part_category: "limb", is_vital: false, sort_order: 19 }
+      - { part_name: "left foot", part_category: "limb", is_vital: false, sort_order: 20 }
+      - { part_name: "right foot", part_category: "limb", is_vital: false, sort_order: 21 }
+
+  dragon:
+    body_parts:
+      - { part_name: "head", part_category: "head", is_vital: true, sort_order: 1 }
+      - { part_name: "snout", part_category: "head", is_vital: false, sort_order: 2 }
+      - { part_name: "horns", part_category: "head", is_vital: false, sort_order: 3 }
+      - { part_name: "neck", part_category: "torso", is_vital: true, sort_order: 4 }
+      - { part_name: "chest", part_category: "torso", is_vital: true, sort_order: 5 }
+      - { part_name: "belly", part_category: "torso", is_vital: true, sort_order: 6 }
+      - { part_name: "back", part_category: "torso", is_vital: false, sort_order: 7 }
+      - { part_name: "left wing", part_category: "appendage", is_vital: false, sort_order: 8 }
+      - { part_name: "right wing", part_category: "appendage", is_vital: false, sort_order: 9 }
+      - { part_name: "left foreleg", part_category: "limb", is_vital: false, sort_order: 10 }
+      - { part_name: "right foreleg", part_category: "limb", is_vital: false, sort_order: 11 }
+      - { part_name: "left hind leg", part_category: "limb", is_vital: false, sort_order: 12 }
+      - { part_name: "right hind leg", part_category: "limb", is_vital: false, sort_order: 13 }
+      - { part_name: "left claw", part_category: "limb", is_vital: false, sort_order: 14 }
+      - { part_name: "right claw", part_category: "limb", is_vital: false, sort_order: 15 }
+      - { part_name: "tail", part_category: "appendage", is_vital: false, sort_order: 16 }
+      - { part_name: "tail tip", part_category: "appendage", is_vital: false, sort_order: 17 }
+
+  dwarf:
+    body_parts:
+      - { part_name: "head", part_category: "head", is_vital: true, sort_order: 1 }
+      - { part_name: "face", part_category: "head", is_vital: false, sort_order: 2 }
+      - { part_name: "beard", part_category: "head", is_vital: false, sort_order: 3 }
+      - { part_name: "neck", part_category: "torso", is_vital: true, sort_order: 4 }
+      - { part_name: "chest", part_category: "torso", is_vital: true, sort_order: 5 }
+      - { part_name: "abdomen", part_category: "torso", is_vital: true, sort_order: 6 }
+      - { part_name: "upper back", part_category: "torso", is_vital: false, sort_order: 7 }
+      - { part_name: "lower back", part_category: "torso", is_vital: false, sort_order: 8 }
+      - { part_name: "left shoulder", part_category: "limb", is_vital: false, sort_order: 9 }
+      - { part_name: "right shoulder", part_category: "limb", is_vital: false, sort_order: 10 }
+      - { part_name: "left upper arm", part_category: "limb", is_vital: false, sort_order: 11 }
+      - { part_name: "right upper arm", part_category: "limb", is_vital: false, sort_order: 12 }
+      - { part_name: "left forearm", part_category: "limb", is_vital: false, sort_order: 13 }
+      - { part_name: "right forearm", part_category: "limb", is_vital: false, sort_order: 14 }
+      - { part_name: "left hand", part_category: "limb", is_vital: false, sort_order: 15 }
+      - { part_name: "right hand", part_category: "limb", is_vital: false, sort_order: 16 }
+      - { part_name: "left thigh", part_category: "limb", is_vital: false, sort_order: 17 }
+      - { part_name: "right thigh", part_category: "limb", is_vital: false, sort_order: 18 }
+      - { part_name: "left shin", part_category: "limb", is_vital: false, sort_order: 19 }
+      - { part_name: "right shin", part_category: "limb", is_vital: false, sort_order: 20 }
+      - { part_name: "left foot", part_category: "limb", is_vital: false, sort_order: 21 }
+      - { part_name: "right foot", part_category: "limb", is_vital: false, sort_order: 22 }

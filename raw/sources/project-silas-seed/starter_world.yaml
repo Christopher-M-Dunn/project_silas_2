@@ -1,0 +1,246 @@
+world:
+  name: "The Realm of Aldenmere"
+  description: "A medieval fantasy world of ancient forests, crumbling kingdoms, and forgotten magic."
+
+locations:
+  - name: "The Sleeping Dragon Tavern"
+    description: "A warm, dimly lit tavern with rough-hewn wooden beams and the smell of roasting meat. A fire crackles in a stone hearth. Mugs clink and low conversations fill the air."
+    region: "Town of Briarhollow"
+    location_type: "building"
+    properties:
+      light_level: "dim"
+      danger: 0
+      ambiance: "warm and lively"
+
+  - name: "Briarhollow Town Square"
+    description: "A cobblestone square surrounded by timber-framed shops and a weathered stone fountain at its center. Market stalls line the edges on busy days."
+    region: "Town of Briarhollow"
+    location_type: "town"
+    properties:
+      light_level: "bright"
+      danger: 0
+
+  - name: "The Blacksmith's Forge"
+    description: "The rhythmic clang of hammer on anvil echoes from this open-air forge. Sparks fly as molten metal meets cold water. Tools and weapons line the walls."
+    region: "Town of Briarhollow"
+    location_type: "building"
+    properties:
+      light_level: "bright"
+      danger: 1
+      temperature: "hot"
+
+  - name: "The Old Chapel"
+    description: "A small stone chapel with stained glass windows depicting forgotten saints. Dust motes drift through colored light. It smells of incense and old wood."
+    region: "Town of Briarhollow"
+    location_type: "building"
+    properties:
+      light_level: "dim"
+      danger: 0
+
+  - name: "Briarhollow East Gate"
+    description: "A sturdy wooden gate flanked by two guard towers. Beyond it, a dirt road winds into the Thornwood Forest."
+    region: "Town of Briarhollow"
+    location_type: "town"
+    properties:
+      light_level: "bright"
+      danger: 1
+
+  - name: "Thornwood Forest Edge"
+    description: "Tall, ancient oaks crowd together, their branches forming a thick canopy overhead. The air is cool and damp, filled with bird calls and the crunch of fallen leaves."
+    region: "Thornwood Forest"
+    location_type: "wilderness"
+    properties:
+      light_level: "dim"
+      danger: 3
+
+  - name: "Thornwood Clearing"
+    description: "A small clearing where sunlight breaks through the canopy. Wildflowers grow between mossy stones. An old stone well sits at the center, its rope frayed."
+    region: "Thornwood Forest"
+    location_type: "wilderness"
+    properties:
+      light_level: "bright"
+      danger: 2
+
+connections:
+  - from: "The Sleeping Dragon Tavern"
+    to: "Briarhollow Town Square"
+    direction: "outside"
+    reverse_direction: "tavern"
+    travel_time: 1
+
+  - from: "Briarhollow Town Square"
+    to: "The Blacksmith's Forge"
+    direction: "east"
+    reverse_direction: "west"
+    travel_time: 1
+
+  - from: "Briarhollow Town Square"
+    to: "The Old Chapel"
+    direction: "north"
+    reverse_direction: "south"
+    travel_time: 1
+
+  - from: "Briarhollow Town Square"
+    to: "Briarhollow East Gate"
+    direction: "southeast"
+    reverse_direction: "northwest"
+    travel_time: 2
+
+  - from: "Briarhollow East Gate"
+    to: "Thornwood Forest Edge"
+    direction: "east"
+    reverse_direction: "west"
+    travel_time: 5
+
+  - from: "Thornwood Forest Edge"
+    to: "Thornwood Clearing"
+    direction: "deeper"
+    reverse_direction: "back"
+    travel_time: 10
+
+characters:
+  - name: "Maren Ashwood"
+    species: "human"
+    gender: "female"
+    physical_desc: "A sturdy woman in her forties with sun-weathered skin, calloused hands, and keen brown eyes. Her dark hair is streaked with grey and pulled back in a practical braid."
+    personality_summary: "Maren is the tavern keeper — practical, sharp-witted, and protective of her regulars. She sees everything that happens in her tavern and remembers it all. She's kind beneath her gruff exterior but has little patience for fools or troublemakers."
+    backstory: "Maren inherited the Sleeping Dragon from her late husband. She's run it alone for fifteen years and knows every secret in Briarhollow."
+    location: "The Sleeping Dragon Tavern"
+    traits:
+      - { category: "personality", name: "perceptive", intensity: 8, description: "Notices everything that happens in her tavern" }
+      - { category: "personality", name: "protective", intensity: 7, description: "Looks after her regulars like family" }
+      - { category: "personality", name: "gruff", intensity: 6, description: "Blunt and no-nonsense in speech" }
+      - { category: "skill", name: "cooking", intensity: 7, description: "Known for her venison stew" }
+      - { category: "skill", name: "gossip_network", intensity: 9, description: "Knows everyone's business" }
+    goals:
+      - { goal_type: "primary", description: "Keep the tavern running and profitable", priority: 8 }
+      - { goal_type: "secondary", description: "Find out who's been stealing from the market stalls at night", priority: 6 }
+
+  - name: "Kael Ironhand"
+    species: "human"
+    gender: "male"
+    physical_desc: "A broad-shouldered man in his thirties with a shaved head, thick forearms covered in old burn scars, and a warm smile that contrasts with his imposing frame. A leather apron hangs over his chest."
+    personality_summary: "Kael is the town blacksmith — boisterous, generous, and fiercely loyal. He loves his craft and treats each piece of metalwork as art. He's honest to a fault and terrible at keeping secrets."
+    backstory: "Kael came to Briarhollow five years ago from the northern city of Stonefall. He doesn't talk about why he left, but it clearly weighs on him."
+    location: "The Blacksmith's Forge"
+    traits:
+      - { category: "personality", name: "boisterous", intensity: 8, description: "Loud, laughing, and full of energy" }
+      - { category: "personality", name: "honest", intensity: 9, description: "Cannot lie convincingly" }
+      - { category: "personality", name: "loyal", intensity: 8, description: "Would die for his friends" }
+      - { category: "skill", name: "blacksmithing", intensity: 9, description: "Master metalworker" }
+      - { category: "flaw", name: "secretive_past", intensity: 7, description: "Hides something painful about his origins" }
+    goals:
+      - { goal_type: "primary", description: "Perfect a legendary alloy his master once spoke of", priority: 7 }
+      - { goal_type: "hidden", description: "Avoid being found by someone from his past", priority: 9 }
+
+  - name: "Sister Lenara"
+    species: "elf"
+    gender: "female"
+    physical_desc: "A tall, slender elven woman with pale silvery skin, long white hair, and luminous green eyes. She wears simple grey robes and moves with an ethereal grace."
+    personality_summary: "Sister Lenara tends the Old Chapel. She is gentle, contemplative, and deeply empathetic. She speaks softly but her words carry weight. She senses emotions in others and often knows what people need before they ask."
+    backstory: "Lenara has tended the chapel for over two centuries. She watched the kingdom rise and fall. She carries ancient knowledge but shares it only when the time is right."
+    location: "The Old Chapel"
+    traits:
+      - { category: "personality", name: "empathetic", intensity: 9, description: "Senses emotions in others deeply" }
+      - { category: "personality", name: "patient", intensity: 10, description: "Has the patience of centuries" }
+      - { category: "personality", name: "mysterious", intensity: 7, description: "Speaks in riddles when discussing the past" }
+      - { category: "skill", name: "healing_magic", intensity: 8, description: "Can mend wounds with prayer and herbal remedies" }
+      - { category: "value", name: "balance", intensity: 9, description: "Believes all things must find equilibrium" }
+    goals:
+      - { goal_type: "primary", description: "Protect an ancient secret hidden beneath the chapel", priority: 9 }
+      - { goal_type: "secondary", description: "Guide the young people of Briarhollow toward wisdom", priority: 6 }
+
+  - name: "Finn Quickfoot"
+    species: "halfling"
+    gender: "male"
+    physical_desc: "A small, wiry halfling with curly auburn hair, bright mischievous eyes, and a perpetual smirk. His clothes are slightly too large and have many pockets."
+    personality_summary: "Finn is a traveling merchant — or so he claims. He's charming, quick-witted, and always has something to sell or trade. His moral compass spins freely, but he has a soft spot for underdogs."
+    backstory: "Finn arrived in Briarhollow a month ago and has been living at the tavern. He claims to be a merchant, but his wares change suspiciously often."
+    location: "The Sleeping Dragon Tavern"
+    traits:
+      - { category: "personality", name: "charming", intensity: 8, description: "Can talk his way into or out of anything" }
+      - { category: "personality", name: "cunning", intensity: 7, description: "Always thinking three steps ahead" }
+      - { category: "flaw", name: "kleptomaniac", intensity: 6, description: "Can't resist pocketing interesting things" }
+      - { category: "skill", name: "sleight_of_hand", intensity: 8, description: "Extremely dexterous" }
+      - { category: "skill", name: "appraisal", intensity: 7, description: "Can assess the value of anything at a glance" }
+    goals:
+      - { goal_type: "primary", description: "Find and sell the rumored treasure map hidden in Briarhollow", priority: 8 }
+      - { goal_type: "secondary", description: "Avoid the bounty hunter who's been asking about a halfling thief", priority: 7 }
+
+relationships:
+  - from: "Maren Ashwood"
+    to: "Kael Ironhand"
+    trust: 7
+    affection: 5
+    rivalry: 0
+    fear: 0
+    respect: 6
+    label: "old friend"
+    history: "Kael is one of Maren's most loyal regulars. She was the first person to welcome him to Briarhollow."
+
+  - from: "Kael Ironhand"
+    to: "Maren Ashwood"
+    trust: 8
+    affection: 6
+    rivalry: 0
+    fear: 0
+    respect: 7
+    label: "trusted friend"
+    history: "Maren took him in when he first arrived, hungry and broke. He's never forgotten that."
+
+  - from: "Maren Ashwood"
+    to: "Finn Quickfoot"
+    trust: -2
+    affection: 1
+    rivalry: 0
+    fear: 0
+    respect: -1
+    label: "suspicious guest"
+    history: "She suspects Finn is connected to the market thefts but can't prove it. He's entertaining, though."
+
+  - from: "Finn Quickfoot"
+    to: "Maren Ashwood"
+    trust: 3
+    affection: 2
+    rivalry: 0
+    fear: 3
+    respect: 5
+    label: "the sharp-eyed innkeeper"
+    history: "Finn knows Maren is watching him. He respects her instincts and is careful around her."
+
+  - from: "Sister Lenara"
+    to: "Kael Ironhand"
+    trust: 5
+    affection: 3
+    rivalry: 0
+    fear: 0
+    respect: 4
+    label: "acquaintance"
+    history: "Lenara senses Kael carries a burden from his past. She has offered counsel, but he deflects."
+
+  - from: "Kael Ironhand"
+    to: "Sister Lenara"
+    trust: 4
+    affection: 2
+    rivalry: 0
+    fear: 1
+    respect: 8
+    label: "the wise elder"
+    history: "Kael respects Lenara but finds her perceptiveness unnerving. She seems to see through him."
+
+items:
+  - name: "Iron Shortsword"
+    description: "A sturdy shortsword with a leather-wrapped grip. Well-balanced and sharp."
+    item_type: "weapon"
+    properties: { damage: 5, weight: 3 }
+
+  - name: "Healing Herb Pouch"
+    description: "A small leather pouch containing dried medicinal herbs. Smells of mint and sage."
+    item_type: "consumable"
+    properties: { healing: 3, uses: 3 }
+
+  - name: "Mysterious Map Fragment"
+    description: "A torn piece of parchment with faded ink markings. It shows part of a route leading into the Thornwood."
+    item_type: "misc"
+    properties: { quest_item: true }
+    is_unique: true
