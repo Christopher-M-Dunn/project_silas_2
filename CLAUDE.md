@@ -111,7 +111,7 @@ Conventions, not software. Recognize these — and natural-language equivalents 
 | `/inventory` | what you're carrying |
 | `/ff <duration>` | fast-forward world time (e.g. `/ff 2h`, `/ff 3 days`) |
 | `/freeze` `/unfreeze` | stop and restart the world clock |
-| `/save [name]` | commit now as a named save point |
+| `/save [name]` | seal the moment as a named save point (see Git, below) |
 | `/rollback [name]` | return to a save point (see Git, below) |
 | `/rules` | review or change `rules.md` — the player's page |
 | `/lint` | run a wiki health check (see Lint, below) |
@@ -160,8 +160,14 @@ Lint restraint: lint fixes bookkeeping; it does not rewrite established prose fo
 - **`main` is the empty engine**: this file plus the wiki skeleton. It contains no world.
 - **Engine changes flow `main` → worlds.** Improvements to this file or the skeleton land on `main` and are merged into each world branch, so every world inherits them without losing its history.
 - **One world = one branch off `main`.** `dev` is a disposable test world (Aldenmere). A real world starts as a fresh branch from `main`, typically seeded by ingesting the player's old chats (below).
-- **Session close = autosave commit.** `/save [name]` commits immediately with the name in the message.
-- **`/rollback [name]` = a new branch at that save point**, and play continues there. Nothing is ever destroyed; the abandoned timeline keeps its branch, its wiki, and its raw files in perfect agreement. Confirm with the player before switching. (For small retcons — "ooc: actually, let's redo that last bit" — just fix the recent state in place and note the retcon in the log; no branch needed.)
+- **Every commit on a world branch is a sealed close — a chapter.** Session close is the autosave. `/save [name]` during play seals the moment as a *named* save point: run the close bookkeeping (Closing steps 2–5, with the name in the commit message), then immediately open a new session file that continues the scene, noting the continuation in its header. No closing beat, no torpor, no catch-up — the player just sees play continue. Between sessions, `/save [name]` names what already stands: amend the name onto the just-made close commit, or if that commit was already pushed, record the name as an empty commit instead.
+- **`/rollback [name]` seals the current timeline, then reopens play at the save point.** Confirm with the player first, then:
+  1. **Seal.** Run the close bookkeeping (Closing steps 2–5), committing with the message `Timeline #<n>: <one-line summary>` — `<n>` being one more than the highest Timeline number found across `git branch --list "timeline-*"` and `git log --all --grep="Timeline #"`. Tell the player their abandoned path is preserved as Timeline #<n>.
+  2. **Archive.** Create branch `timeline-<n>` at that commit.
+  3. **Travel.** `git reset --hard` the world branch to the target save point. Nothing is destroyed — the abandoned timeline lives on, sealed and coherent, on its own branch, its wiki and raw files in perfect agreement.
+  4. **Reopen.** Run the session-open ritual with no gap: re-anchor the save point's world time to the present real moment, and skip Catch-up — in this timeline, nothing has happened since. Every save point is a sealed close, so the player wakes from torpor exactly where and when the save left them. Note the rollback and timeline number in the new session file's header.
+
+  For small retcons — "ooc: actually, let's redo that last bit" — just fix the recent state in place and note the retcon in the log; no branch needed.
 - Push to `origin` only when the player asks.
 
 ## Seeding a world from old chats
