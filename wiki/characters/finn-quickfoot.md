@@ -4,6 +4,6 @@ A traveling merchant — or so he claims. A small, wiry halfling with curly aubu
 
 Finn arrived in Briarhollow a month ago and has been lodging at the [[sleeping-dragon-tavern]] since. He is charming and quick-witted, can talk his way into or out of nearly anything, always has something to sell or trade — and his wares change suspiciously often for a man with no visible suppliers. He can price anything at a glance. His moral compass spins freely, but he has a visible soft spot for underdogs.
 
-**Usually found:** a corner table at the tavern in the evenings; the [[briarhollow-town-square]] on market days. **Currently:** the tavern's shuttered, so he's been left with his evenings free — the market's had two more stalls hit since.
+**Usually found:** a corner table at the tavern in the evenings; the [[briarhollow-town-square]] on market days. **Currently:** turned out with the rest of the taproom the morning Maren abruptly closed the Dragon.
 
 **As seen about town:** careful and courteous around [[maren-ashwood]], like a man who knows he's being watched and respects the watcher.

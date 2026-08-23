@@ -4,14 +4,13 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## World
 
-- [[rules]] — the physics of the world and the player's powers; the player's own page
+- [[rules]] — world architecture and the player's out-of-session powers; changes only outside sessions
 - [[clock]] — current world time, its real-time anchor, freeze state
 - [[aldenmere]] — the world: Briarhollow, the Thornwood, and who's who
 
 ## Characters
 
-- [[player]] — Christopher, the traveler: shapeshifter and mage, asleep in wolf form outside RavenCraw
-- [[silas-ashwood]] — Maren's estranged brother, unwell in distant RavenCraw; not yet met
+- [[player]] — Christopher, the traveler: shapeshifter and mage, asleep in wolf form outside [[ravencraw]]
 - [[maren-ashwood]] — keeper of the Sleeping Dragon; sharp-eyed hub of all Briarhollow gossip
 - [[kael-ironhand]] — boisterous master blacksmith who won't say why he left Stonefall
 - [[sister-lenara]] — elven keeper of the chapel for two centuries; gentle, riddling, unsettlingly perceptive
@@ -26,13 +25,13 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 - [[briarhollow-east-gate]] — the way out east, toward the forest
 - [[thornwood-forest-edge]] — where the ancient oaks close overhead
 - [[thornwood-clearing]] — wildflowers, mossy stones, and an unexplained old well
+- [[ravencraw]] — a small walled town several days' hard travel up the north road; barely glimpsed
 
 ## Items
 
 - [[iron-shortsword]] — solid work for sale at the forge
 - [[healing-herb-pouch]] — Lenara's mint-and-sage remedies at the chapel
-- [[small-green-book]] — recovered from Maren's father's chest, now bound in a stable magical glow
 
 ## Events
 
-- [[binding-of-the-green-book]] — Christopher's warding fight with the book, in the tavern loft
+*(none yet)*

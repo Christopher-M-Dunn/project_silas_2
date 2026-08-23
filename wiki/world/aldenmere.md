@@ -12,6 +12,10 @@ Lately someone has been stealing from the market stalls at night — the talk of
 
 Beyond the east gate, a five-minute walk down a dirt road, the ancient oaks of the [[thornwood-forest-edge]] close overhead. Ten minutes deeper lies the [[thornwood-clearing]], where sunlight breaks through onto mossy stones and an old stone well with a frayed rope. The forest is not tame; sensible townsfolk go in pairs and come out before dark.
 
+## The north road
+
+A road runs north out of Briarhollow toward farther towns. Several days' hard travel along it lies [[ravencraw]], a small walled town of which little has yet been seen.
+
 ## People
 
-[[maren-ashwood]] keeps the tavern. [[kael-ironhand]] works the forge. [[sister-lenara]] tends the chapel. [[finn-quickfoot]] lodges at the tavern, selling this and that. And a [[player|traveler]] has lately been sleeping by the tavern hearth.
+[[maren-ashwood]] keeps the tavern — though she has lately turned out her regulars and barred its doors. [[kael-ironhand]] works the forge. [[sister-lenara]] tends the chapel. [[finn-quickfoot]] lodges at the tavern — or did, until it closed. And the strange [[player|traveler]] who slept by the Dragon's hearth woke one morning and left town.

@@ -16,8 +16,8 @@
 
 ## Tasks
 
-- **Active:** get everyone out of the Sleeping Dragon and lock it up — wraiths may be coming.
-- **Active:** decide whether to go to RavenCraw after Silas herself, now that she has a name (the Slippery Gypsy Inn) and a way to reach Christopher again if she doesn't go with him now.
+- **Done:** got everyone out of the Sleeping Dragon and locked it up ahead of the wraith threat — no wraith ever came.
+- **Active:** reach Silas in RavenCraw. She gave fear one day behind her own barred door, then told Kael only that her brother needed her, and took the north road herself — three days out now, moving as fast as a woman who hasn't traveled past the market in a decade can manage.
 - **Interrupted:** catch the market thief with proof, before the stall-keepers start blaming each other. — interrupted by the wraith threat and the tavern evacuation.
 - **Planned:** quietly warn Kael if the Stonefall questions ever come closer than two towns away.
 - **Ongoing:** keep the tavern running and profitable; it is fifteen years of her life and all of his that's left.

@@ -7,5 +7,3 @@ Kael is boisterous, generous, and fiercely loyal — the sort who laughs from th
 **Usually found:** at his anvil, dawn to dusk.
 
 **As seen about town:** devoted to [[maren-ashwood]], his first friend here — everyone knows she fed him when he arrived hungry and broke. Around [[sister-lenara]] he is respectful and faintly nervous, like a man who suspects he's been read.
-
-**Currently:** keeping an eye on the shuttered [[sleeping-dragon-tavern]] while Maren is away. She told him only that her brother Silas — alive after eleven years' silence, and unwell — needed her in RavenCraw; he didn't press for more, though it plainly cost him not to.

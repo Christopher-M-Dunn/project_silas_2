@@ -1,4 +1,6 @@
-# Silas Ashwood
+# Silas Ashwood — HIDDEN
+
+*Known to the player through Maren and through Silas himself — but not common knowledge in Briarhollow, so no public page yet.*
 
 [[maren-ashwood]]'s younger brother. Left Briarhollow eleven years ago after their parents' burying and settled in **RavenCraw**, a small town several days' journey north, without ever sending word home. Has not appeared in person; everything known of him so far comes through [[player|Christopher]], whom he sent to Briarhollow.
 

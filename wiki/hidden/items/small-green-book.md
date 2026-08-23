@@ -1,4 +1,6 @@
-# Small Green Book
+# Small Green Book — HIDDEN
+
+*Known only to Maren and Christopher; publicly, this item does not exist.*
 
 Recovered from a chest of [[maren-ashwood]]'s late father's belongings, in the loft above the [[sleeping-dragon-tavern]]. Small enough to wrap in a shirt, bound now in a length of Maren's own red hair-cord.
 

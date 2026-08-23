@@ -10,7 +10,13 @@ One line per hidden page. This file lives inside `hidden/` so that secret titles
 - [[kael-ironhand]] — Stonefall: Dain Veller, the burned granary village, the debt; the alloy as redemption
 - [[sister-lenara]] — the vault beneath the chapel, the well as its second mouth, the thinning wards
 - [[finn-quickfoot]] — the market thief; the stolen map fragment; Vess the bounty hunter, three towns behind
+- [[silas-ashwood]] — Maren's brother in RavenCraw: unwell, afflicted; known to the player, not the town
 
 ## Items
 
 - [[mysterious-map-fragment]] — in Finn's coat lining; route to the well; the symbol matching the crypt wards
+- [[small-green-book]] — bound in Christopher's containment, worn around his neck; the town knows nothing of it
+
+## Events
+
+- [[binding-of-the-green-book]] — the loft struggle with the book; witnessed only by Maren

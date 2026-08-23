@@ -6,4 +6,4 @@ A warm, dimly lit tavern with rough-hewn wooden beams and the smell of roasting 
 
 **Usually here:** [[maren-ashwood]] (keeper — she lives above the taproom), [[finn-quickfoot]] (lodger, most evenings holding court at a corner table), and whoever in Briarhollow wants a drink.
 
-**Currently:** emptied and being locked up. Maren cleared the taproom in a hurry after [[binding-of-the-green-book|a violent magical struggle]] in the loft — she believes the tavern and everyone in it are in danger. The hearth fire was left burning, unbanked, in the rush.
+**Currently:** emptied and barred. Maren cleared the taproom in a sudden hurry one morning and locked the doors without explanation. The hearth fire was left burning, unbanked, in the rush.
