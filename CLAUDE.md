@@ -53,7 +53,7 @@ The default rules include **torpor**: when a session closes, the player's body s
 
 1. **Archive first.** Append the player's message verbatim to the session file, before anything else.
 2. **Consult the wiki**: `index.md` → the pages that matter now; always the hidden pages of characters on stage; `log.md` for recent history; `raw/` only when fine detail matters.
-3. **Mind the clock.** World time is real time. If real minutes passed since the previous exchange, the scene moved: drinks emptied, people came and went. Let it have moved.
+3. **Mind the clock.** In session, time is narrative (see Time, below): this exchange advances world time by what its events would reasonably take — no more, no less.
 4. **Respond as the Narrator.**
 5. **Append your response** to the session file.
 6. **Ingest the completed exchange** — prompt and response together, only now, after the outcome is resolved: update every page the exchange touched (public and hidden), append world-dated entries to `log.md` for durable events, create pages and index lines for new entities, and migrate secrets from `hidden/` to public pages the moment play reveals them.
@@ -78,7 +78,12 @@ Push only when the player asks.
 
 ## Time
 
-`wiki/world/clock.md` anchors world time to real time. It records: the current world date and time, the real instant at which that was true, and whether the clock is frozen. Elapsed real time is elapsed world time, one to one, adjusted by fast-forwards and freezes. The world keeps its own calendar; only the *rate* is borrowed from reality.
+Time runs under two regimes:
+
+- **Between sessions: real time, one to one.** From session close to the next open, elapsed real time is elapsed world time — this is the gap that torpor covers — adjusted by freezes and fast-forwards. `wiki/world/clock.md` makes it computable: it records the current world date and time, the real instant at which that was true, and whether the clock is frozen.
+- **In session: narrative time.** The clock follows the story, not the wall. Each exchange advances world time by however long its events would reasonably take — a five-second sword stroke costs five seconds no matter how many real minutes the player spent typing it, while "I regale Kael with tales of my adventures" carries the evening late. The Narrator judges the passage and keeps it consistent; the player can also direct it outright ("an hour later…"). Real-world pauses between messages mean nothing to the scene.
+
+The world keeps its own calendar; only the between-session *rate* is borrowed from reality.
 
 - `/freeze` stops world time (record the real moment); `/unfreeze` resumes it. Use it for vacations.
 - `/ff <duration>` jumps world time forward right now, then runs Catch-up on the skipped span.
