@@ -35,7 +35,7 @@ In the loft above the taproom, Maren opens her father's chest for the first time
 ---
 
 **14th of Greenveil, Year 512 of the Broken Crown — morning** `session:2026-08-22-2024.md`
-The binding of the green book: Christopher wards his hands, unwraps the small green book, and fights whatever lives in it to a standstill through violent, escalating chanting. Maren is thrown down and struck her head; the loft nearly comes apart. The struggle ends with the book contained in a stable bluish-purple glow, bound with a cord from Maren's own hair. Exhausted, Christopher still won't say how he knew her on sight. Maren demands to know if the containment is actually safe, and whether her brother will be all right.
+The [[binding-of-the-green-book]]: Christopher wards his hands, unwraps the small green book, and fights whatever lives in it to a standstill through violent, escalating chanting. Maren is thrown down and struck her head; the loft nearly comes apart. The struggle ends with the book contained in a stable bluish-purple glow, bound with a cord from Maren's own hair. Exhausted, Christopher still won't say how he knew her on sight. Maren demands to know if the containment is actually safe, and whether her brother will be all right.
 
 ---
 

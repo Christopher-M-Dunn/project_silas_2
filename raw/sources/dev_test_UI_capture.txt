@@ -1,0 +1,212 @@
+open session
+
+
+Ran 5 commands, created a file, edited 4 files, read a file
++31
+-5
+The session is open. You wake in the Sleeping Dragon Tavern, Briarhollow — Maren's asking your name.
+
+hi, i'm christopher. you must be maren.
+
+
+Edited 4 files
++24
+-4
+Maren studies you — you knew her name before she gave it, and it's clearly rattled her a little, though she's covering it with stew and hospitality. A bowl slides down the bar toward you.
+
+What do you do?
+
+your brother silas sent me from RavenCraw, a small town several days journey from here to the north
+
+
+Edited 3 files
++31
+-1
+Now update the player page with the connection and log the reveal.
+
+
+Edited 2 files
++6
+-1
+Maren wants answers — why Silas sent a messenger instead of coming himself, and how you knew her on sight.
+
+What do you do?
+
+ooc: you put a backstory about your brother in the forward facing wiki, when it has not yet been revealed, it should go in hidden
+
+
+Read 2 files, edited 3 files, created a file
++25
+-2
+Fixed — the Silas/RavenCraw backstory is now only in maren-ashwood.md (hidden), off the public page. Ready to continue the scene whenever you are.
+
+your brother... he's not well. I recommend you see him soon before you lose the chance. but that's not what i am here about. he spoke of a small green book that could be found wrapped in some clothing. it would be in a wooden chest. he said if it has not been given to the poor, you would have it among his affects.
+
+
+Ran a command, edited 2 files, read a file
++31
+-5
+I need to fix that edit — I accidentally dropped the "## Secrets" header and the husband/river secret.
+
+Edited
+maren-ashwood.md
++3
+-0
+Good, restored. Now let's add the task update and create the hidden item page for the book.
+
+
+Edited 2 files, created a file
++10
+-2
+Now update the hidden index, player.md, and log.md.
+
+
+Edited 3 files
++7
+-1
+Maren wants to know exactly what's wrong with Silas, and why he wants the book instead of just asking her to come.
+
+What do you do?
+
+he's taken up by some sort of evil. it saps his strength and clouds his mind. he believes the book is at the heart of it, and from his description, i believe he is correct. I'll know a little more if I can see the book, but I'll need to bring it to my laboratory in ravencraw to do a full analysis. I am trained in all manner of magiks, both light and dark. whatever this is, it is very powerful and i cannot guarantee your safety if you involve yourself any more than necessary.
+
+Edited
+2026-08-22-2024.md
++6
+-6
+Good, that's reverted. Now let me append the new player message and response at the actual end of the file.
+
+Read
+2026-08-22-2024.md
+Good, the file is intact. Now appending the new exchange.
+
+
+Edited 3 files, read a file
++31
+-0
+Let me merge the two Christopher bullets into one and tidy the tasks.
+
+Edited
+maren-ashwood.md
++3
+-5
+Now update the small green book's hidden page with the curse theory, and log the exchange.
+
+
+Edited 2 files
++6
+-1
+Maren's untying her apron and heading for the loft stairs, waiting for you to fall in beside her and keep talking.
+
+What do you do?
+
+*i follow silently*
+
+
+Edited 5 files
++32
+-5
+The chest is open, the wrapped book is inside, and Maren's watching to see what you do next.
+
+What do you do?
+
+ah that must be it. dont touch it. stand back. *i mutter some words in an unknown language casting  a warding spell on my hands, enveloping them with a bright blue glow. my hands now protected, i unwrap the bundle to reveal a small green book. i mutter some more phrases and the blue glow transfers from my hands to the book, where it shifts to red an begins to rapidly fade. i immediately begin speaking more phrases in a back-and-forth: it fades, my phrases grow louder making it momentarily brighter, it begins to fade again, pushing us back with an unseen force. this proceeds until my voice grows inhumanly loud and i manage to stay on my feet. after having being blown to the ground and against the wall by the force, maren covers her ears as hard as she can, feeling they might bleed from my voice despite such measures. the force abates, and the glow stabilizes into a bluish purple glowing orb surrounding the book. exhausted, i help maren up and ask her for a ribbon.*
+
+
+Edited a file, created 3 files, read a file, ran a command
++39
+-0
+Now update the indexes and the remaining hidden-page references.
+
+
+Edited 2 files
++3
+-2
+Now clean up remaining hidden-page references to the book and add the physical/emotional fallout to Maren's and Christopher's pages.
+
+Edited
+maren-ashwood.md
++3
+-3
+Now update Christopher's public page with the magical demonstration, and log the event.
+
+
+Edited 2 files
++8
+-1
+The book's bound in a stable glow, tied off with Maren's own hair-cord — and she's waiting on your answer: is it safe, and will Silas be all right?
+
+*i tie the book around my neck with the ribbon* It is safe, for now. but this is a much more powerful magik than i was prepared for--than i **could** prepare for. I must proceed with the utmost caution and haste. you may proceed to ravencraw, if you wish. I cannot guarantee your safety there, but now that i've alerted every wraith within 100 miles of this location with arcana usually not uttered above a whisper, i **can** guarantee that you are not safe here. Nor would be any of your patrons. I advise you to empty the place and lock the doors immediately. Leave as quickly as you can, wherever you go. If you do go to ravencraw, you'll find your brother at the Slippery Gypsy Inn. You can leave a message for me at the front desk and they will get it to me.
+
+
+Edited 3 files
++29
+-1
+Now update Silas's page with the inn detail, Maren's hidden page, and the log.
+
+
+Edited 2 files
++5
+-4
+Now the log entry.
+
+Edited
+log.md
++5
+-0
+Maren's got the door bar in hand, waiting on your answer: are you coming with her, or already gone?
+
+i'm afraid you cannot accompany me *i shapeshift into a wolf and bolt out the door* (/ff 5 days, close the session, saved as STARTING_POINT)
+
+
+Edited 3 files, ran a command
++51
+-0
+Now let's update the footer, clock, and run the full ingest for this catch-up before doing close-lint and the commit.
+
+Edited
+2026-08-22-2024.md
++4
+-2
+Now update clock.md.
+
+Edited
+clock.md
++3
+-3
+Now updating the world pages for the catch-up: player.md (torpor location), Maren, Lenara (hidden), Finn/market thefts, Kael, and the log.
+
+
+Edited 3 files, ran a command
++7
+-3
+Now update Sister Lenara's hidden page (the ward tremor) and the market-theft situation (Finn / town square).
+
+
+Ran 2 commands, edited 6 files, read a file
++11
+-5
+There's a duplicate/stale "Carrying" line at the end — cleaning that up.
+
+
+Edited 2 files, read a file
++1
+-3
+Now let's do a final check of the index files and then commit.
+
+
+Read 2 files
+That's consistent — good. Now let's verify the full session file reads cleanly end-to-end before committing.
+
+Read
+2026-08-22-2024.md
+This all looks consistent. Now committing everything as the session close/save point.
+
+
+Ran 2 commands
+Session closed and committed as STARTING_POINT (21c08eb).
+
+Where things stand: Christopher — now revealed as a shapeshifting mage — bound the cursed green book, warned Maren of danger, shapeshifted into a wolf, and ran the five days to RavenCraw, sleeping it off just outside town. Maren shuttered the Sleeping Dragon and set off after her brother herself; she's still a couple days out. Back in Briarhollow, no wraith came, Lenara's quietly spooked, and Finn's gotten bolder with the market thefts.
+
+Say /open whenever you're ready to pick it back up in RavenCraw.
+

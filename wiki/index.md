@@ -11,6 +11,7 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 ## Characters
 
 - [[player]] — Christopher, the traveler: shapeshifter and mage, asleep in wolf form outside [[ravencraw]]
+- [[silas-ashwood]] — Maren's estranged brother, unwell in distant RavenCraw; not yet met
 - [[maren-ashwood]] — keeper of the Sleeping Dragon; sharp-eyed hub of all Briarhollow gossip
 - [[kael-ironhand]] — boisterous master blacksmith who won't say why he left Stonefall
 - [[sister-lenara]] — elven keeper of the chapel for two centuries; gentle, riddling, unsettlingly perceptive
@@ -31,7 +32,8 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 - [[iron-shortsword]] — solid work for sale at the forge
 - [[healing-herb-pouch]] — Lenara's mint-and-sage remedies at the chapel
+- [[small-green-book]] — recovered from Maren's father's chest, now bound in a stable magical glow
 
 ## Events
 
-*(none yet)*
+- [[binding-of-the-green-book]] — Christopher's warding fight with the book, in the tavern loft
