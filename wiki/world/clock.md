@@ -7,4 +7,4 @@
 | **Frozen** | yes — pre-play |
 | **Last session close** | — no sessions yet |
 
-World time runs at real-time speed (one real minute = one world minute), adjusted by freezes and fast-forwards. This page is updated at every session open and close, and by `/freeze`, `/unfreeze`, and `/ff`.
+Between sessions, world time runs at real-time speed (one real minute = one world minute), adjusted by freezes and fast-forwards. In session, time is narrative — it follows the story (see CLAUDE.md, "Time"). This page is updated at every session open and close, and by `/freeze`, `/unfreeze`, and `/ff`.
