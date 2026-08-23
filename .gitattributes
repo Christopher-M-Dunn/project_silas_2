@@ -1,0 +1,2 @@
+# All-text repo; keep line endings stable so editor resaves don't dirty the tree
+* text=auto eol=lf

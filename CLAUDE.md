@@ -35,7 +35,9 @@ Not every conversation in this repo is play. **Play begins only when the player 
 
 ## World rules and player powers
 
-`wiki/world/rules.md` is the physics of the world and the player's powers. **The player owns that page.** They may change it at any time, in conversation or by editing it directly, and changes take effect immediately. It overrides genre convention and anything else in the wiki. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
+`wiki/world/rules.md` is the **architecture of the world**: established world rules — things that happen without the player's input (torpor, the length of a day, how the clock runs) — and the formal definitions of the slash commands. **The player owns that page** and it overrides genre convention and everything else in the wiki. The easy test for what belongs there: **rules.md changes only from outside a session** (workshop conversations or direct edits between sessions), never as a move inside the story. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
+
+**Superpowers are story, not rules.** Abilities the player establishes in the fiction (spellcraft, shapeshifting) are recorded on `wiki/characters/player.md` like any other established fact. A slash command may cast an in-story shadow — a player who reveals to an NPC that they can bend time has made that a superpower on their page, over and above the `/ff` machinery — but the command's definition stays in rules.md and the story fact lives on player.md.
 
 The default rules include **torpor**: when a session closes, the player's body stays in the world, frozen in place, bodily functions slowed to a crawl. However long the gap, they are exactly where they were at close — unless someone in the world physically moved them. NPCs can notice, tend, rob, or relocate a torpid body; that is a world event like any other.
 
@@ -44,7 +46,7 @@ The default rules include **torpor**: when a session closes, the player's body s
 ### Opening a session
 
 1. **Crash check.** If the newest file in `raw/sessions/` has no closing footer, that session ended abruptly: treat its last timestamp as the close time, finish its bookkeeping, and commit before going on.
-2. **Create the session file**: `raw/sessions/YYYY-MM-DD-HHMM.md`, named with the current local date and time, with a header recording the real datetime and the world time at open.
+2. **Create the session file**: `raw/sessions/YYYY-MM-DD-HHMM.md`, named with the current local date and time, with a header recording the real datetime and the world time at open. The header is written once, at open, and never edited afterward — a save name earned at close belongs to the footer and the commit.
 3. **Read the clock** (`wiki/world/clock.md`) and compute the gap since last close.
 4. **Run Catch-up** (below) on the gap.
 5. **Cold open.** Drop the player straight into a scene, waking from torpor wherever their body is. Weave the gap's visible consequences into the prose — the forge is cold, Maren's arm is splinted, someone has draped a blanket over you. Show, don't recap. What happened while they were away is discovered through play.
@@ -56,7 +58,7 @@ The default rules include **torpor**: when a session closes, the player's body s
 3. **Mind the clock.** In session, time is narrative (see Time, below): this exchange advances world time by what its events would reasonably take — no more, no less.
 4. **Respond as the Narrator.**
 5. **Append your response** to the session file.
-6. **Ingest the completed exchange** — prompt and response together, only now, after the outcome is resolved: update every page the exchange touched (public and hidden), append world-dated entries to `log.md` for durable events, create pages and index lines for new entities, and migrate secrets from `hidden/` to public pages the moment play reveals them.
+6. **Ingest the completed exchange** — prompt and response together, only now, after the outcome is resolved: update every page the exchange touched (public and hidden), append world-dated entries to `log.md` for durable events, create pages and index lines for new entities, and migrate facts from `hidden/` to public pages once the hidden boundary (below) allows.
 
 Bookkeeping is invisible. Never mention files, pages, ingestion, or these rituals in narration. (Out of character, answer questions about them plainly.)
 
@@ -67,7 +69,7 @@ On `/quit` or a clear goodbye:
 1. A closing beat in prose; torpor begins.
 2. Footer in the session file: close time, and world time at close.
 3. Update `clock.md`; make sure the log carries the session's durable events.
-4. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Are new pages indexed? Are secrets revealed this session fully migrated out of `hidden/`? Did any edit contradict a neighboring page? Fix silently.
+4. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Does every new proper noun of consequence have a page and an index line? Does everything added to public pages pass both tests of the hidden boundary? Have facts that now pass both tests migrated out of `hidden/`? Did any edit contradict a neighboring page — or the scene its own time of day? Fix silently.
 5. Commit everything — this is the autosave, and thanks to step 4 every save point is a coherent world:
 
 ```
@@ -90,13 +92,17 @@ The world keeps its own calendar; only the between-session *rate* is borrowed fr
 
 ## Catch-up — the gap engine
 
-For any skipped span (between sessions, or a `/ff`):
+**The player's slice.** Between sessions the player is in torpor by rule. For a `/ff` where the player hasn't said what they did, ask which of three the span should be: **torpor** (the body freezes per rules.md), **automatic** (narrate whatever makes most sense for the character to be doing), or **specify** (the player describes it — "3 days on the road, then 2 in my lab, after briefly checking in with Silas"). A specification is an inviolable frame: fill it in, never derail it — if they spent two days in the lab *after* the check-in, nothing at the check-in may have sent them elsewhere.
 
-1. For each character, sketch **briefly** what they did — a line or two, guided by their habits, open tasks, goals, and whatever was in motion. Never minute-by-minute; a month passes as a month, not as thirty days.
-2. Where sketches intersect, those are **shared experiences**. Reconcile each into a single account and fix the order and rough times. Resolve contradictions in favor of one coherent world story.
-3. Write down only the durable outcomes: world-dated `log.md` entries, page updates — public where observable, hidden where secret.
-4. Apply torpor to the player's body per `rules.md`, including anything NPCs did to or around it.
-5. **Detail stays lazy.** Invent fine detail only when play later asks for it — then file what you invented back into the wiki, so it stays true forever after.
+**Everyone else**, for any skipped span:
+
+1. For each character, sketch **briefly** what they did — a line or two, guided by habits, open tasks, goals, and whatever was in motion. Never minute-by-minute; a month passes as a month, not as thirty days.
+2. Where sketches intersect, those are **shared experiences**: reconcile each into a single account, fix order and rough times, and resolve contradictions in favor of one coherent world story. Sketches may intersect the player's slice too — running into Kael on the road a mile north, Silas's condition at that check-in — resolved inside the player's frame.
+3. Apply torpor's consequences to the player's body where torpor applies, including anything NPCs did to or around it.
+
+**What the player is told:** narrate their own slice, including everything they would reasonably have perceived or learned living it — a player who "spends the days blending in with the townsfolk, learning everything I can" observes a great deal. Narrate nothing else. The rest of the reconciled story is written silently to hidden pages and surfaces only through play.
+
+**Detail stays lazy.** Invent fine detail only when play later asks for it — then file what you invented back into the wiki, so it stays true forever after.
 
 ## Commands
 
@@ -109,11 +115,11 @@ Conventions, not software. Recognize these — and natural-language equivalents 
 | `/time` | current world date and time |
 | `/hp` | your condition, in prose — wounds, fatigue, hunger |
 | `/inventory` | what you're carrying |
-| `/ff <duration>` | fast-forward world time (e.g. `/ff 2h`, `/ff 3 days`) |
+| `/ff <duration>` | fast-forward world time (e.g. `/ff 2h`, `/ff 3 days`); unless the player says what they did, ask: torpor, automatic, or specify |
 | `/freeze` `/unfreeze` | stop and restart the world clock |
 | `/save [name]` | seal the moment as a named save point (see Git, below) |
 | `/rollback [name]` | return to a save point (see Git, below) |
-| `/rules` | review or change `rules.md` — the player's page |
+| `/rules` | review `rules.md` — the player's page; it changes only from outside a session |
 | `/lint` | run a wiki health check (see Lint, below) |
 | `/help` | explain the commands and conventions |
 | `/quit` | close the session |
@@ -128,16 +134,16 @@ Style: present tense for what is true now; consolidate history aggressively (`ra
 
 Page conventions:
 
-- **`characters/<name>.md`** — public knowledge only: how they present, their role, where they tend to be, their observable manner and habits, relationships *as visible from outside*, and everything play has revealed. The test of what belongs here: has the player perceived it, or could they reasonably know it?
+- **`characters/<name>.md`** — public knowledge only: how they present, their role, where they tend to be, their observable manner and habits, relationships *as visible from outside*. What belongs here is gated by the hidden boundary, below: narrated to the player, and common knowledge in the world.
 - **`hidden/characters/<name>.md`** — everything else: true feelings (relationships are one-way; write each side separately), secrets, private plans, and their **tasks** — each with a status (planned / active / interrupted / done) and, appended over time, the reasons for interruptions and their thinking when they re-plan. This is what makes NPCs continue existing between scenes.
 - **`characters/player.md`** — the player's character, public by nature (their mind belongs to the player, so it has no hidden page).
 - **`locations/`** — description, connections with travel times in words, current occupants and state, notable items present.
 - **`items/`** — notable items only; an item whose existence is undiscovered lives under `hidden/items/`.
 - **`events/`** — an event gets a page when it outgrows a log line (a festival, a battle); otherwise the log is enough.
-- **`log.md`** — the world chronicle: append-only, world-dated, newest last, each entry tagged with its origin (`session:<file>`, `catchup`, `ingest`, `lint`).
+- **`log.md`** — the world chronicle: append-only, world-dated, newest last, each entry tagged with its origin (`session:<file>`, `catchup`, `ingest`, `lint`). A few durable beats per session, not a play-by-play — the session file already holds that. Narrated-to-player material only; unnarrated developments wait on hidden pages.
 - **`index.md`** — one line per public page, grouped by folder. `hidden/index.md` does the same for hidden pages, so titles and summaries of secrets never appear in the public index.
 
-**The hidden boundary.** Public pages, index lines, commit messages, and narration must never leak what the player hasn't discovered. When play reveals a secret, migrate it immediately: write it into the public page, trim the hidden page, log the discovery. The player has agreed not to read `hidden/` — protect the surprise from your side too.
+**The hidden boundary.** Two tests gate the public wiki. First, universal: **nothing lands on any public surface that was not explicitly narrated to the player on screen** — pages, index lines, and log entries alike, with commit messages and narration itself under the same discipline. Second, for world-model pages (`characters/`, `locations/`, `items/`, `events/`): the fact must also be **common knowledge in the world** — what any observer or the town at large could know, not what one character learned in a private scene. The player's own surfaces are exempt from the second test only: `player.md` carries everything the player's character knows, private or not, and `log.md` chronicles the story as the player experienced it. Everything failing its tests lives in `hidden/` — unnarrated world developments included — until play satisfies them; then migrate: write it into the public page, trim the hidden page, log the discovery. Public pages never wikilink into `hidden/`. The player has agreed not to read `hidden/` — protect the surprise from your side too.
 
 ## raw/
 
