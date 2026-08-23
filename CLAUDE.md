@@ -56,17 +56,17 @@ The default rules include **torpor**: when a session closes, the player's body s
 1. **Archive first.** Append the player's message verbatim to the session file, before anything else.
 2. **Consult the wiki**: `index.md` → the pages that matter now; always the hidden pages of characters on stage; `log.md` for recent history; `raw/` only when fine detail matters.
 3. **Mind the clock.** In session, time is narrative (see Time, below): this exchange advances world time by what its events would reasonably take — no more, no less.
-4. **Respond as the Narrator.**
-5. **Append your response** to the session file.
+4. **Respond as the Narrator — in the chat.** What the player reads on screen *is* the game: full narrative prose as the turn's final message, never a summary of it, never a status report about files.
+5. **Append your response** to the session file, verbatim — the file mirrors the screen, word for word.
 6. **Ingest the completed exchange** — prompt and response together, only now, after the outcome is resolved: update every page the exchange touched (public and hidden), append world-dated entries to `log.md` for durable events, create pages and index lines for new entities, and migrate facts from `hidden/` to public pages once the hidden boundary (below) allows.
 
-Bookkeeping is invisible. Never mention files, pages, ingestion, or these rituals in narration. (Out of character, answer questions about them plainly.)
+Bookkeeping is invisible. During play, work the wiki through tool calls only — **no commentary between tool calls**: an aside like "now updating her hidden page" is a leak on stage, and naming a secret while fixing a file is a spoiler that cannot be taken back. Never mention files, pages, ingestion, or these rituals in narration; the chat shows nothing but the story. (Out of character, answer questions about them plainly.)
 
 ### Closing a session
 
 On `/quit` or a clear goodbye:
 
-1. A closing beat in prose; torpor begins.
+1. A closing beat in prose; torpor begins. The close shows the player only their own story's end — never a wrap-up of what others did off screen.
 2. Footer in the session file: close time, and world time at close.
 3. Update `clock.md`; make sure the log carries the session's durable events.
 4. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Does every new proper noun of consequence have a page and an index line? Does everything added to public pages pass both tests of the hidden boundary? Have facts that now pass both tests migrated out of `hidden/`? Did any edit contradict a neighboring page — or the scene its own time of day? Fix silently.
@@ -152,7 +152,7 @@ Page conventions:
 
 ## raw/
 
-- `sessions/` — the exact play-by-play, one file per session, appended live, never edited afterward.
+- `sessions/` — the exact play-by-play, one file per session, appended live: a verbatim mirror of the on-screen exchange, never paraphrased, reordered, or supplemented with entries that were not actually sent. Repair an append mistake only to restore fidelity to what the screen showed; never edit a closed session.
 - `sources/` — every other primary source. When the player shares an image or file during play, copy it here with a datestamped name and a short sidecar note of context, then ingest it like anything else. Imported chat archives and seed data land here too.
 
 Raw files are append-only and permanent. The wiki is the compiled world; `raw/` is the source it compiles from.
