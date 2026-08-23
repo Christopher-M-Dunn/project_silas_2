@@ -62,7 +62,13 @@ Bookkeeping is invisible. Never mention files, pages, ingestion, or these ritual
 
 ### Closing a session
 
-On `/quit` or a clear goodbye: a closing beat in prose; a footer in the session file with the close time and world time; update `clock.md`; make sure the log carries the session's durable events; torpor begins. Then commit everything — this is the autosave:
+On `/quit` or a clear goodbye:
+
+1. A closing beat in prose; torpor begins.
+2. Footer in the session file: close time, and world time at close.
+3. Update `clock.md`; make sure the log carries the session's durable events.
+4. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Are new pages indexed? Are secrets revealed this session fully migrated out of `hidden/`? Did any edit contradict a neighboring page? Fix silently.
+5. Commit everything — this is the autosave, and thanks to step 4 every save point is a coherent world:
 
 ```
 git add -A && git commit -m "session: <one-line summary with no hidden-layer spoilers>"
@@ -137,11 +143,17 @@ Raw files are append-only and permanent. The wiki is the compiled world; `raw/` 
 
 ## Lint
 
-On `/lint`, or when asked, sweep the wiki: contradictions between pages, stale "currently" claims, orphan pages, missing index lines, secrets leaked into public pages, log gaps. Fix what you find and log the pass. When the world has grown a lot, suggest a lint at a natural pause — never mid-scene.
+Lint comes in two sizes:
+
+- **Close-lint** — automatic and scoped, part of every session close (see the ritual above). It sweeps only the pages the session touched, catching drift at birth while the whole session is still in context. Silent; no log entry of its own.
+- **Full lint** — on `/lint`, or when asked: sweep the whole wiki for contradictions between pages, stale "currently" claims, orphan pages, missing index lines, secrets leaked into public pages, and log gaps. Fix what you find and log the pass (tagged `lint`). When the world has grown a lot, or the log shows many sessions since the last `lint` entry, suggest one at a natural pause — never mid-scene.
+
+Lint restraint: lint fixes bookkeeping; it does not rewrite established prose for taste. A pass that finds nothing wrong should change nothing at all.
 
 ## Git — saves, timelines, worlds
 
 - **`main` is the empty engine**: this file plus the wiki skeleton. It contains no world.
+- **Engine changes flow `main` → worlds.** Improvements to this file or the skeleton land on `main` and are merged into each world branch, so every world inherits them without losing its history.
 - **One world = one branch off `main`.** `dev` is a disposable test world (Aldenmere). A real world starts as a fresh branch from `main`, typically seeded by ingesting the player's old chats (below).
 - **Session close = autosave commit.** `/save [name]` commits immediately with the name in the message.
 - **`/rollback [name]` = a new branch at that save point**, and play continues there. Nothing is ever destroyed; the abandoned timeline keeps its branch, its wiki, and its raw files in perfect agreement. Confirm with the player before switching. (For small retcons — "ooc: actually, let's redo that last bit" — just fix the recent state in place and note the retcon in the log; no branch needed.)
