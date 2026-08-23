@@ -21,4 +21,4 @@ The courier's employer wants the fragment back and has set a bounty hunter on it
 
 - **Active:** find the rest of the map's route — he's begun asking oblique questions about the Thornwood and the well.
 - **Active:** keep count of strangers at the gate; if a scarred woman rides in, be gone within the hour, debts and all.
-- **Ongoing:** the night rounds of the market stalls — though Maren's watching has him considering retirement from Briarhollow's stalls specifically.
+- **Ongoing:** the night rounds of the market stalls — with Maren gone and the Dragon dark, he's grown bolder and hit two more stalls in as many nights, reasoning her eyes are the only ones in Briarhollow that ever really worried him.
