@@ -1,0 +1,292 @@
+open session
+
+
+Ran 2 commands, read 9 files, edited 2 files, created a file
++30
+-3
+Cold wakes you before anything else does.
+
+You surface into your own body slowly — wolf-shape gone loose and heavy around a mind that's still climbing up out of somewhere deep. The stone wall at your back has leached every bit of warmth out of the ground you're curled against, and your legs, when you feel for them, answer late and stiff, like they've forgotten the arrangement. Four days and five nights of hard road are still in them.
+
+The book is still there. You feel its weight before you see it — cord gone tight and a little damp where it crossed under fur, the small shape of it resting cool against your chest, its bruise-colored glow banked down to almost nothing, a low light like a coal under ash.
+
+Above you, RavenCraw's wall rises black against a sky that hasn't decided yet whether it's still night or barely isn't. No moon to speak of. Somewhere along the wall's top, out of sight around the curve of it, a bell sounds once — thin, deliberate, not an alarm, just a watch marking its hour — and after it, faint, the scrape of boots on stone walking a slow line you can't see the end of.
+
+The gate, what you can make out of it from here, is shut. A single lantern burns beside it, small and orange and very far away.
+
+Everything else is quiet in the particular way a walled town is quiet at its worst hour — everyone who belongs inside already asleep behind those walls, and you very much still outside them.
+
+What do you do?
+
+
+/time
+
+Unknown command: /time. Did you mean /name?
+
+/ time
+
+Edited
+2026-08-23-1427.md
++12
+-0
+The small hours — deep night tipping toward morning but not there yet. By the count you've kept on the road, it's the 20th of Greenveil now, Year 512 of the Broken Crown.
+
+/ hp
+
+Edited
+2026-08-23-1427.md
++12
+-0
+Nothing broken, nothing bleeding — but you're running on empty. Five days of holding wolf-shape over hard road has burned through whatever you had in reserve; your legs are stiff and slow to answer, and underneath the stiffness there's the particular hollow ache of a body that hasn't eaten properly since Briarhollow. No wounds to speak of, no lingering hurt from the binding fight in the loft — just the deep, honest tiredness of having pushed yourself further than you probably should have, and gotten away with it.
+
+/ inventory
+
+Edited
+2026-08-23-1427.md
++16
+-0
+Not much survives a wolf's saddlebags — which is to say, none. Whatever you carried out of Briarhollow beyond what's tied to you, you left behind or never had.
+
+Around your neck, on Maren's red hair-cord: the small green book, bound in its banked bluish-purple glow.
+
+That's all. No pack, no coin, no blade — just the fur on your back and the thing you ran five days to keep contained.
+
+*i shift back to human, mutter some routine phrases, disguising my naked form with a minor perception manipulation spell. [now, although people will see me naked, they will not perceive it. they simply will not be able to recall what i was wearing, or their brain may fill in the perception gap with some unremarkable attire]. The guard at the gate knows my face. he nods to me as he opens the gate. I walk into ravencraw to find the slippery gypsy inn*
+
+Read
+rules.md
+Good, this confirms superpowers established in play go on player.md. Now let me write the narration and update the wiki.
+
+
+Edited 3 files, created a file
++40
+-3
+Now fix the player.md link and update the index and log.
+
+
+Edited 3 files
++9
+-3
+Light leaks warm around the shutters despite the hour. Someone in there hasn't gone to bed.
+
+What do you do?
+
+*i ask the innkeeper Karl if i have any messages, and if he knows if Silas is in tonight.*
+
+
+Edited 5 files, created a file
++34
+-3
+"No messages," he says, coming around the bar properly now. "Nobody's come by asking after you, if that's what you mean." Then, quieter, the innkeeper's cheerful default dropping out of his voice: "Silas is in. Hasn't left that room in going on three days now, far as I can tell — not for food, not for the privy that I've seen, nothing. I've knocked. Twice. First time he told me to leave the tray outside and go. Second time he didn't answer at all, but I heard him in there — talking. No one else in the room with him." A pause, weighing whether to say the rest. "Sounded like he was arguing with somebody."
+
+Karl sets both hands flat on the bar, looking at you the way a man looks at someone he's hoping has an actual answer. "You're the only one who's ever come round asking after him by name, in all the time he's lodged here. So — is he in some kind of trouble? Because I like the man, difficult as he's been to get two words out of, and I'd rather know if I need to be doing something more than leaving trays outside a door."
+
+*i nod solemnly.* You're a good man, Karl. You've done right. Don't worry. Everything will be alright. *karl senses what i say is to reassure myself just as much as him. i listen by silas' door. i don't hear anything. i turn the handle but it doesnt move.* can i see the key, karl? *karl brings his master key out but stops himself short of inserting it into the door. he gives me a wary expression of reticence. i nod to him but he continues to hesitate. i put my hand out and he hands me the key and stands back*  you are smarter than you look karl *i chuckle--a good natured joke karl would normally normally happily indulge, but he remains frozen, eyes fixed on the door.* right then. *i unlock the door and hand back the key* don't disturb us.  *i cast a major ward on myself, without properly considering all factors. my body is enveloped with a light blue glow. the ward, while blocking outside magik from affecting me, blocks magik from the inside out as well, and it now blocks the effect of my earlier minor perception manipulation spell. i do not notice this, and do not register Karls sudden change in facial expression. I not to Karl, solemnly turn, glowing blue and naked, and enter the room. Silas is there. alive but asleep. all around me is evidence of the sheer horror of his condition. i do not want to disturb him, and am exhausted, so i climb into the other bed and sleep* *(/ ff 10 hours while i sleep)
+
+
+Ran a command, edited 5 files
++51
+-5
+Now the public Karl page update and his hidden counterpart for the private overnight vigil.
+
+
+Edited 2 files, created a file
++11
+-1
+Now the log entries for this turn's durable, narrated events.
+
+Edited
+log.md
++10
+-0
+Update the index line for the player character to reflect the current scene.
+
+Edited
+index.md
++1
+-1
+Karl doesn't answer the joke. He doesn't answer anything. He just stands there with his hand still half-raised from giving up the key, and something moves across his face that has nothing to do with the door — his eyes going wide and then carefully, deliberately not-wide, the look of a man choosing not to react to a thing he is absolutely reacting to. He says nothing. He backs up a step, then another, and by the time you've turned away he's already retreating toward the stairs down, not running, but not far off it either.
+
+You don't notice. You're already through the door.
+
+The room hits you before your eyes finish adjusting — not a smell exactly, though there's that too, sour and close, a room that hasn't had its window open in days. It's the wrongness of it, the kind you feel in your teeth. Someone has scratched marks into the floorboards around the bed in a rough, uneven ring — not carved, dug, fingernails and something harder both, deep enough to splinter the wood, the pattern almost a warding sigil and almost not, like whoever made it knew the shape but not why. Salt, or what was salt, lies in a broken line across the threshold, kicked apart on one side — by Silas himself, maybe, pacing through his own ward until it stopped meaning anything.
+
+The single mirror on the wall is turned to face the plaster, a cloth nailed — not draped, nailed — over the back of it. Three trays of food sit untouched on the floor, in various stages of going bad, one with a fork still standing upright in something that's gone solid. The washbasin is dry and has been for a while. A chair lies on its side in the corner and hasn't been picked back up.
+
+And in the near bed: Silas.
+
+Thinner than any grown man should be, cheeks fallen in under a rough dark beard gone patchy in places like it's been pulled at, skin an unhealthy candle-wax color even in poor light. His shirt has ridden up in his sleep, and along one forearm you can see the marks — not fresh, healing wrong, the kind a person makes on themselves when something in the dark won't let them alone otherwise. His breathing is ragged but steady. Alive. Asleep. His lips move slightly, soundlessly, mid-argument with whoever he was arguing with when Karl heard him through the door — but no words come, just the shape of them.
+
+You don't wake him. Whatever's been keeping him hollowed out this long has waited three days; it can wait until morning proper. The second bed is narrow and smells of dust from disuse, and you don't care. You're down into it and asleep before you've finished deciding to be.
+
+Ten hours pass.
+
+You don't dream, or if you do, none of it survives waking. The ward holds its pale blue light around you the whole while, patient and steady, indifferent to the small green shape resting against your chest that never quite seems to touch it — two separate facts, refusing to acknowledge each other. Downstairs, the Slippery Gypsy Inn opens for its morning trade without you; Karl serves it looking like a man who didn't sleep, casting more than one glance at the stairs and deciding, each time, not to climb them.
+
+Early afternoon light is fighting its way through the shutters when you surface — thin bars of it lying across the ruined floorboards, catching the broken salt line, catching the mirror's nailed-shut back. You're still glowing, faint blue and unmistakably undressed, the ward apparently in no hurry to let go of either fact.
+
+Across the room, Silas is awake.
+
+He's sitting up against the headboard, knees drawn toward his chest, watching you with the fixed, unblinking attention of a man who has been awake for some unknown stretch of time trying to decide if you're real. His eyes are the worst part — too bright in that wasted face, tracking your every small movement like he's cataloguing you the way a starving man catalogues food he isn't sure he's allowed to touch.
+
+"You came," he says at last. His voice is wrecked — dry, cracked in the middle, a voice that hasn't used itself gently in a long while. His gaze drops, finally, to the pale blue light wrapped around your skin, and something that might almost be a laugh moves through him, more air than sound. "And you're—" He doesn't finish it. Doesn't need to. "It worked, then. Whatever you did to her. To the book." His eyes go to the shape resting at your throat and stay there, hungry and afraid at once. "Is it still talking to you? Because it never stopped talking to me."
+
+yes, it worked... and no, it--she-- never talked to me; didn't have the opportunity. she sure did slap me around though. I warded her just as a precaution. she did not like that one bit. this is a magik familiar, yet at a strength unlike anything i have ever encountered. to be honest i'm not 100% sure how to proceed. I'll have to unbind the book to study it. I think we may need to seek the guidance of the elders. the fact she is still speaking to you now, even through my ward, is very troubling.  never stopped, eh? bound from so far away... *i shake my head* did you feel any change in its strength? I am starting to think she's just playing dead right now and is not truly bound at all
+
+
+Edited 5 files, read a file
++32
+-1
+Silas goes very still at "she." Like the word confirms something he'd been hoping was only his own sickness talking.
+
+He has to think about the rest — really think, dragging it up from wherever the last however-many days have buried it. "Change," he repeats slowly. "Yes. There was a — a quiet. Not silence, I'd have noticed silence, I'd have prayed for silence. But softer. Thinner. Like she'd stepped back into another room and left the door open, so I'd still know she was there." His hand comes up, unconsciously, to press against his sternum, like he's checking for something under his own ribs. "That was — I don't know how many days after you left Briarhollow. Two. Three. I felt it happen. I didn't know why, then."
+
+He swallows, and it looks like it costs him something. "Then she came back. Not loud again — worse than loud. Patient. Like whatever she'd been doing while she was quiet, she'd decided on something, and now she was just... waiting to see if I'd cooperate. That was three days ago. That's when I stopped being able to leave this room, because leaving it meant not listening to her every second, and not listening to her every second turned out to be a thing I couldn't afford to do."
+
+His eyes come up to yours, and there's something almost like relief in the horror of it — relief that you believe him, maybe, or that he's not the only one doing the math now. "So if you're asking whether I think you actually caught her, or whether she just let you think you did while she worked out what you're worth to her—" He doesn't finish the sentence. He doesn't have to.
+
+"Elders," he says instead, seizing the word like a rope thrown into water. "You have people. People who'd know what this is." It isn't quite a question. There's a rawness underneath it, old and unrelated to the last three days — the sound of a man who spent eleven years with no one to call when things went wrong, hearing that this time, maybe, that isn't true. "Then that's what we do. Whatever it takes. I am done being alone in a room with her voice."
+
+(ooc: i want to change the world rules so torpor no longer causes hunger)
+
+Edited
+2026-08-23-1427.md
++14
+-0
+Can't make that change from inside a session — rules.md is carved out specifically so it only changes from outside one, in a workshop conversation or a direct edit, never as an in-story move. It's meant to stay stable ground the story itself can't touch.
+
+Easiest path: /quit now and I'll make the edit right after close, or just tell me in a workshop conversation once we're not playing. Either way it takes effect the moment it's written, no session-open required. Want to keep going here in the meantime, or wrap up?
+
+ooc: no its okay disregard that.
+
+Edited
+2026-08-23-1427.md
++12
+-0
+Noted, no change made. Back to Silas's room whenever you're ready.
+
+*I project a beckoning call to the council of the elders, and listen for their response.* it will be a full week before the can assemble in full. I don't think we can afford to wait that long. you can't, the book won't... there is only one viable option. You must swear not to tell others, but I have the ability to bend time itself. there are many ways i can do this, but one way is to bend it around me without myself experiencing that time. I can easily extend it to personal effects *i tap the book* so that takes care of that. And I can, with a nearly exhaustive expenditure of my aura, extend it to another person. *he warily nods in agreement* okay, lie down. *he lies down in a star formation as i direct him, and then I lie on top of him so that every part of my body is matched to his. with my palms to his palms, forehead to his forehead i begin to shake as i charge my aura, the shaking becomes more violent as i hear his far off voice: "i'm not sure i knew what i was signing up for... this is a bit awkward. does this work with clothes on?" his voice fades away as i manage to extend my aura around him.* (/ ff 1 week)
+
+
+Read 3 files, edited 4 files, ran a command
++40
+-4
+Now Maren's public and hidden pages, Karl's pages, a new hidden page for Silas, log entries, and index updates.
+
+
+Edited 2 files
++4
+-3
+Now migrate the hidden journey event to a reconciled public event page, since it's been narrated (her arrival) to the player.
+
+
+Created a file, ran a command, edited a file
++6
+-1
+Now add the new public event to the public index, and create Silas's hidden page.
+
+
+Edited 2 files, created a file
++19
+-0
+Now update Karl's public and hidden pages to reflect the door-opening convergence.
+
+
+Edited 4 files
++12
+-8
+Now the log entries.
+
+Edited
+log.md
++10
+-0
+The answer comes back distant and layered, many voices speaking as one and none of them hurrying: a week, no sooner, before the full council can be gathered. You already know that's a week you don't have. Not with a thing that patient wearing down a man this thin.
+
+Silas takes the plan the way he's taken everything since you walked in — with the wary, headlong relief of someone who's stopped being able to afford caution. He doesn't ask you to explain how it's possible. He just nods, once, and does what you tell him.
+
+The star formation feels absurd right up until you're lying on top of it, palm to palm, forehead to forehead, every point of you lined up with every point of him. His breath goes shallow and fast under yours. "I'm not sure I knew what I was signing up for," he manages, somewhere near the start of the shaking, an awful attempt at levity that's mostly just fear with the pin pulled. "This is a bit awkward. Does this work with clothes on?"
+
+You don't get to answer him. The shaking is past words by then, your aura tearing loose in earnest, dragging his along with it into the same fold you're pulling yourself into — and his voice goes distant, then gone, swallowed by the effort of holding two people still while a week happens without them.
+
+For the two of you, no time passes at all. One heartbeat you're shaking against Silas's held breath; the next, the shaking is easing, your aura guttering down toward empty, and something in the room has changed that you didn't feel change.
+
+The door is open. You didn't hear it open.
+
+Two people are standing in it, mid-motion, caught in the middle of whatever they were about to do or say — Karl, master key still raised in his hand like he forgot to lower it, and beside him a sturdy, grey-streaked woman in travel-worn clothes who has clearly walked a very long way to get here, her keen brown eyes going wide, then wider, at the sight in front of her: a naked, exhausted stranger lying full-length on top of her brother in a room that looks like something out of a nightmare, both of them just now beginning to stir.
+
+"Christopher," Maren says. It comes out flat, disbelieving, a name she's apparently been carrying the whole road north like a stone in her pocket — and then, cracking on the second word, everything else she's been holding back for eleven years arriving at once: "Silas."
+
+Silas's eyes are barely open. He turns his head toward the voice, and whatever's left of his exhausted, wasted face goes through disbelief, recognition, and something that might be the first real relief he's felt in months, all in about a second and a half.
+
+"Maren?"
+
+/ save BEDSIDE
+
+
+Read 2 files, ran 2 commands, edited 2 files, created a file
++12
+-1
+Good, all staged and nothing unexpected. Committing the save point.
+
+Committed
+07dec42
+Saved as BEDSIDE. Play continues right where it stood — Maren in the doorway, Silas just barely conscious enough to say her name.
+
+/ ff 3 days
+
+Edited
+2026-08-23-1706.md
++20
+-0
+How should Christopher spend the next 3 days?
+
+Automatic
+
+
+Edited 2 files, found files, read a file, ran a command
++21
+-3
+Now the location page for the laboratory, and updates to RavenCraw, player.md, Silas, Maren, Karl, and log.md.
+
+
+Created a file, edited 8 files
++21
+-7
+Now the log entry and index status lines, then a quick continuity check before responding.
+
+
+Edited 2 files
++6
+-1
+All set. Let me deliver the scene to you.
+
+Read
+2026-08-23-1706.md
+The immediate mess sorts itself out fast, once everyone stops staring. Karl finds you something to wear before Maren has to ask him to. Silas is in no state to leave that bed, and nobody — least of all Maren — is willing to argue about it; she plants herself at his side like she's making up for eleven years in the next few hours, badgering Karl for broth and clean water and a washbasin that isn't a symbol of anything, and Silas, half-delirious with relief, lets her.
+
+You give her enough of an answer to stop her asking every five minutes — not the whole truth, not yet, but enough: that Silas is afflicted by something old and dangerous bound up in their father's book, that you're trying to help him, that you're more than you look like you are. She doesn't love the shape of that answer. She takes it anyway, for now, too worn down by the road and too glad to have her brother's pulse under her hand to fight you on it tonight.
+
+You sleep like the dead that first night — real sleep this time, not the folded-away kind — and wake the next day still tender but functional, aura creeping back the ordinary slow way. The room gets a little more livable with Maren in it: the salt swept up, the mirror left facing the wall by unspoken agreement, the worst of the food finally cleared out. Silas eats a full meal for the first time in over a week and keeps it down.
+
+On the second day you make your way to your own laboratory — a cramped, cluttered set of rooms above a shuttered apothecary's, thick with the particular disorder of a workspace nobody else is allowed to tidy. You reach out to the elders again, now that their week is spent, and lay out what's changed: the entity's patience, Silas's account of her voice, your own doubt that the binding ever really held. Whatever answers back this time is shorter and colder than before.
+
+By the third day, word comes: the elders will receive you. Not at your convenience — at theirs, and soon.
+
+/ quit
+
+
+Read 2 files, ran a command, edited 5 files
++23
+-5
+Now committing the close.
+
+
+Ran 2 commands
+The summons settles into you like a stone dropped in still water — rings you're too tired to watch spread. Whatever "soon" means to something that speaks in a chorus of unhurried voices, it isn't a thing you can prepare for standing up.
+
+You sit down at the one clear corner of your worktable, the small green book cool and quiet against your chest, and mean to stay upright just long enough to think it through properly.
+
+You don't. The thought is still half-formed when the room goes soft and far away, and your body makes the decision your mind hadn't gotten around to — folding forward over crossed arms, chin to chest, out before you've finished the sentence in your own head.
+
+Session closed and committed. Christopher's in torpor at his RavenCraw laboratory, the elders' summons still hanging over him whenever you pick this back up.
