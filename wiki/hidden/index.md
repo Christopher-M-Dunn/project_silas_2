@@ -16,10 +16,12 @@ One line per hidden page. This file lives inside `hidden/` so that secret titles
 - [[roland-voss]] — where the captain and the *Kestrel* actually are
 - [[juno-park]] — whose guest the engineer has become
 - [[sefa-naim]] — what is tending the doctor
+- [[first-ktar]] — "Rusty": the raft is alive, aware, and now carrying its guest toward Veth shore
+- [[sorrai-kin-raft]] — distant kin-raft converging on the player's feeling; unaware their target is now underway too
 
 ## Locations
 
-- [[escape-pod]] — what is quietly approaching the player's pod
+- [[escape-pod]] — recovered, now nested against Rusty; no longer adrift alone
 
 ## Items
 

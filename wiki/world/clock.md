@@ -2,10 +2,10 @@
 
 | | |
 |---|---|
-| **World time** | *(not yet started — begins at the first `/open`, moments after the pod comes to rest)* |
-| **True as of (real time)** | — |
-| **Frozen** | yes — pre-play |
-| **Last session close** | — no sessions yet |
+| **World time** | Day 1 since planetfall, ~5 hours in — first dark, Rusty (the raft) underway toward the grey landmass, player asleep (torpor) |
+| **True as of (real time)** | 2026-08-23 22:36 PDT |
+| **Frozen** | no |
+| **Last session close** | `raw/sessions/2026-08-23-1820.md`, save name **FIRST_NIGHT** |
 
 This world's day is **14 hours** (see [[rules]]): roughly seven hours of amber light, seven of dark. The crew reckoning is **days since planetfall** — the crash is Day 1 — counted in local 14-hour days, with the hour noted as needed ("Day 3, second hour of dark"). Local calendars, if the natives keep any, are unknown.
 

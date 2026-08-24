@@ -6,6 +6,8 @@ Voss never launched. He stayed in the cracked chair riding the *Kestrel* down, w
 
 He does not know the mountain is inhabited. The mountain knows the ship is: the Veth's quiet survey is already climbing toward the wreck, and Voss's beacon pulses are the most interesting signal their listeners have received in a generation.
 
+His pulses just reached the second-in-command's pod-side nav display too — weak, intermittent, unidentified, but bearing squarely on the fixed land he crashed into. Neither of them knows the other received anything.
+
 ## Tasks
 
 - **Active:** stay alive; keep the beacon pulsing; inventory what survived.
