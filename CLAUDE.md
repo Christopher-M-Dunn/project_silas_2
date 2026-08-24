@@ -69,8 +69,9 @@ On `/quit` or a clear goodbye:
 1. A closing beat in prose; torpor begins. The close shows the player only their own story's end — never a wrap-up of what others did off screen.
 2. Footer in the session file: close time, and world time at close.
 3. Update `clock.md`; make sure the log carries the session's durable events.
-4. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Does every new proper noun of consequence have a page and an index line? Does everything added to public pages pass both tests of the hidden boundary? Have facts that now pass both tests migrated out of `hidden/`? Did any edit contradict a neighboring page — or the scene its own time of day? Fix silently.
-5. Commit everything — this is the autosave, and thanks to step 4 every save point is a coherent world:
+4. **Close catch-up** — sweep the world time played this session (since the last catch-up): advance every off-screen character's hidden sheet through the moment of close. Silent bookkeeping; nothing is narrated (see Catch-up).
+5. **Close-lint** — a scoped sweep of only what this session touched, while it is all still in context: do the edited pages' "currently" claims match how the session ended? Does every new proper noun of consequence have a page and an index line? Does everything added to public pages pass the hidden boundary (narrated to the player)? Have facts that now pass it migrated out of `hidden/`? Did any edit contradict a neighboring page — or the scene its own time of day? Fix silently.
+6. Commit everything — this is the autosave, and thanks to steps 4–5 every save point is a coherent world:
 
 ```
 git add -A && git commit -m "session: <one-line summary with no hidden-layer spoilers>"
@@ -92,9 +93,11 @@ The world keeps its own calendar; only the between-session *rate* is borrowed fr
 
 ## Catch-up — the gap engine
 
+Catch-up runs over **every span of world time, exactly once**: the between-session gap (at session open), a skipped span (at `/ff`), and — at session close — the span just played since the last catch-up. No hour of the world's time goes unswept, and none is swept twice. The close sweep is pure bookkeeping: the player already lived their own slice, so nothing is narrated — off-screen characters' hidden sheets (position, tasks, progress) are simply advanced through the moment of close. Mid-session, an off-screen thread also advances early whenever play intersects it; the close sweep trues up the rest.
+
 **The player's slice.** Between sessions the player is in torpor by rule. For a `/ff` where the player hasn't said what they did, ask which of three the span should be: **torpor** (the body freezes per rules.md), **automatic** (narrate whatever makes most sense for the character to be doing), or **specify** (the player describes it — "3 days on the road, then 2 in my lab, after briefly checking in with Silas"). A specification is an inviolable frame: fill it in, never derail it — if they spent two days in the lab *after* the check-in, nothing at the check-in may have sent them elsewhere.
 
-**Everyone else**, for any skipped span:
+**Everyone else**, for any span being swept:
 
 1. For each character, sketch **briefly** what they did — a line or two, guided by habits, open tasks, goals, and whatever was in motion. Never minute-by-minute; a month passes as a month, not as thirty days.
 2. Where sketches intersect, those are **shared experiences**: reconcile each into a single account, fix order and rough times, and resolve contradictions in favor of one coherent world story. Sketches may intersect the player's slice too — running into Kael on the road a mile north, Silas's condition at that check-in — resolved inside the player's frame.
@@ -173,9 +176,9 @@ Lint restraint: lint fixes bookkeeping; it does not rewrite established prose fo
 - **`main` is the empty engine**: this file plus the wiki skeleton. It contains no world.
 - **Engine changes flow `main` → worlds.** Improvements to this file or the skeleton land on `main` and are merged into each world branch, so every world inherits them without losing its history.
 - **One world = one branch off `main`.** `dev` is a disposable test world (Aldenmere). A real world starts as a fresh branch from `main`, typically seeded by ingesting the player's old chats (below).
-- **Every commit on a world branch is a sealed close — a chapter.** Session close is the autosave. `/save [name]` during play seals the moment as a *named* save point: run the close bookkeeping (Closing steps 2–5, with the name in the commit message), then immediately open a new session file that continues the scene, noting the continuation in its header. No closing beat, no torpor, no catch-up — the player just sees play continue. Between sessions, `/save [name]` names what already stands: amend the name onto the just-made close commit, or if that commit was already pushed, record the name as an empty commit instead.
+- **Every commit on a world branch is a sealed close — a chapter.** Session close is the autosave. `/save [name]` during play seals the moment as a *named* save point: run the close bookkeeping (Closing steps 2–6, with the name in the commit message), then immediately open a new session file that continues the scene, noting the continuation in its header. No closing beat, no torpor, no catch-up — the player just sees play continue. Between sessions, `/save [name]` names what already stands: amend the name onto the just-made close commit, or if that commit was already pushed, record the name as an empty commit instead.
 - **`/rollback [name]` seals the current timeline, then reopens play at the save point.** Confirm with the player first, then:
-  1. **Seal.** Run the close bookkeeping (Closing steps 2–5), committing with the message `Timeline #<n>: <one-line summary>` — `<n>` being one more than the highest Timeline number found across `git branch --list "timeline-*"` and `git log --all --grep="Timeline #"`. Tell the player their abandoned path is preserved as Timeline #<n>.
+  1. **Seal.** Run the close bookkeeping (Closing steps 2–6), committing with the message `Timeline #<n>: <one-line summary>` — `<n>` being one more than the highest Timeline number found across `git branch --list "timeline-*"` and `git log --all --grep="Timeline #"`. Tell the player their abandoned path is preserved as Timeline #<n>.
   2. **Archive.** Create branch `timeline-<n>` at that commit.
   3. **Travel.** `git reset --hard` the world branch to the target save point. Nothing is destroyed — the abandoned timeline lives on, sealed and coherent, on its own branch, its wiki and raw files in perfect agreement.
   4. **Reopen.** Run the session-open ritual with no gap: re-anchor the save point's world time to the present real moment, and skip Catch-up — in this timeline, nothing has happened since. Every save point is a sealed close, so the player wakes from torpor exactly where and when the save left them. Note the rollback and timeline number in the new session file's header.
