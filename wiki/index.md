@@ -10,12 +10,13 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## Characters
 
-- [[player]] — Christopher, the traveler: shapeshifter and mage, asleep in wolf form outside [[ravencraw]]
-- [[silas-ashwood]] — Maren's estranged brother, unwell in distant RavenCraw; not yet met
-- [[maren-ashwood]] — keeper of the Sleeping Dragon; sharp-eyed hub of all Briarhollow gossip
+- [[player]] — Christopher, the traveler: shapeshifter and mage, aura spent, reunited with Maren at the Slippery Gypsy Inn
+- [[silas-ashwood]] — Maren's estranged brother, wasted by the book's affliction; reunited with her in RavenCraw
+- [[maren-ashwood]] — keeper of the Sleeping Dragon; walked the north road alone to reach her brother
 - [[kael-ironhand]] — boisterous master blacksmith who won't say why he left Stonefall
 - [[sister-lenara]] — elven keeper of the chapel for two centuries; gentle, riddling, unsettlingly perceptive
 - [[finn-quickfoot]] — halfling "merchant" lodging at the tavern; charming, light-fingered reputation
+- [[karl]] — innkeeper of the Slippery Gypsy Inn in RavenCraw; knows Christopher by name, worried about Silas
 
 ## Locations
 
@@ -26,7 +27,8 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 - [[briarhollow-east-gate]] — the way out east, toward the forest
 - [[thornwood-forest-edge]] — where the ancient oaks close overhead
 - [[thornwood-clearing]] — wildflowers, mossy stones, and an unexplained old well
-- [[ravencraw]] — a small walled town several days' hard travel up the north road; barely glimpsed
+- [[ravencraw]] — a small walled town several days' hard travel up the north road; cramped lanes, a night guard who knows Christopher's face
+- [[slippery-gypsy-inn]] — RavenCraw inn where Silas Ashwood can be found; lit and awake despite the hour
 
 ## Items
 
@@ -37,3 +39,4 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 ## Events
 
 - [[binding-of-the-green-book]] — Christopher's warding fight with the book, in the tavern loft
+- [[marens-journey-to-ravencraw]] — her long walk north, revealed by her arrival at the Slippery Gypsy Inn

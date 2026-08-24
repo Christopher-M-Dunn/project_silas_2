@@ -51,3 +51,38 @@ Christopher refuses to let Maren travel with him, shapeshifts into a wolf withou
 
 **14th–19th of Greenveil, Year 512 of the Broken Crown** `catchup`
 Five days pass (`/ff`). Christopher runs the road north to [[ravencraw|RavenCraw]] mostly in wolf-shape, resting in short, wary stretches — twice something catches his scent and thinks better of it, and no wraith runs him down. He reaches RavenCraw's outskirts spent on the fifth night and goes still, wolf-shaped, in a hollow against a low stone wall outside the town's edge.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — the small hours** `session:2026-08-23-1427.md`
+Christopher wakes outside RavenCraw's wall, shifts back to human, and cloaks his unclothed state with a minor perception spell. The night gate guard recognizes him on sight and lets him through without question — Christopher is evidently a known RavenCraw local, not merely a visitor. He makes his way through the sleeping town to the Slippery Gypsy Inn, lit and awake despite the hour, where Silas is said to be found.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — the small hours** `session:2026-08-23-1427.md`
+Innkeeper Karl tells Christopher that Silas has been shut in his room for about three days — no meals, no sign of leaving even for the privy. Karl knocked twice: turned away the first time, and the second time heard Silas through the door arguing with someone, though no one else was in the room. No messages have come for Christopher. Karl asks outright whether Silas is in trouble.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — the small hours** `session:2026-08-23-1427.md`
+Karl hands over his master key against his own visible reluctance. Christopher unlocks Silas's room and finds him alive but wasted — three days of self-neglect, a scratched warding ring around the bed, a broken salt line, the room's mirror nailed face-to-the-wall, spoiled food untouched on the floor, healing marks along his arm. Silas is asleep. Christopher casts a major ward on himself without weighing that it also silences his own ongoing magic, unknowingly cancelling the perception spell that had been hiding his undress. He doesn't wake Silas, takes the second bed, and sleeps.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — early afternoon** `session:2026-08-23-1427.md`
+Ten hours on (`/ff`), Christopher and Silas wake together and meet face to face for the first time. Silas, wrecked-voiced and hollowed by his ordeal, is relieved the binding held — and asks whether the book still talks to Christopher, since it never stopped talking to him.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — early afternoon** `session:2026-08-23-1427.md`
+Christopher names the book's occupant a magical familiar, unlike anything he's encountered, referring to her as "she." He confirms she fought and struck him during the binding and now suspects the containment may not have truly held — that she could be playing dead. Silas confirms her voice went quieter but never stopped two or three days after Christopher left Briarhollow, then returned three days ago colder and more patient, which is when he stopped being able to leave his room. Both agree they need to consult "the elders," an authority of Christopher's not yet described, and that Christopher will need to unbind the book to study her.
+
+---
+
+**20th of Greenveil, Year 512 of the Broken Crown — early afternoon** `session:2026-08-23-1427.md`
+Christopher calls out to the council of elders; their answer is that a full assembly is a week away. Unwilling to wait, he reveals a new power to Silas under oath of secrecy — the ability to bend time around himself and, at great cost to his own aura, around one other person — and uses it on the two of them together to skip the week without experiencing it.
+
+---
+
+**27th of Greenveil, Year 512 of the Broken Crown — early afternoon** `session:2026-08-23-1427.md`
+The week ends. Christopher and Silas stir to find the door open: Karl, finally climbing the stairs after a week of silence, and beside him **Maren**, just arrived in RavenCraw after walking the length of the north road alone. She and Silas see each other for the first time in eleven years.
