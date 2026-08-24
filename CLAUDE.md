@@ -93,7 +93,11 @@ The world keeps its own calendar; only the between-session *rate* is borrowed fr
 
 ## Catch-up — the gap engine
 
-Catch-up runs over **every span of world time, exactly once**: the between-session gap (at session open), a skipped span (at `/ff`), and — at session close — the span just played since the last catch-up. No hour of the world's time goes unswept, and none is swept twice. The close sweep is pure bookkeeping: the player already lived their own slice, so nothing is narrated — off-screen characters' hidden sheets (position, tasks, progress) are simply advanced through the moment of close. Mid-session, an off-screen thread also advances early whenever play intersects it; the close sweep trues up the rest.
+Catch-up runs over **every span of world time, exactly once**: the between-session gap (at session open), a skipped span (at `/ff`), and — at session close — the span played since the last sweep. No hour of the world's time goes unswept, and none is swept twice. The close sweep is pure bookkeeping: the player already lived their own slice, so nothing is narrated — off-screen characters' hidden sheets (position, tasks, progress) are simply advanced through the moment of close. Mid-session, an off-screen thread also advances early whenever play intersects it.
+
+**A `/ff` syncs before it skips.** The skip's intersections can only be resolved against current state, so `/ff` first sweeps the span played so far, then the skipped span — one combined pass in practice, everyone trued up at the far side. `/sync` runs the played-span sweep on demand, and the Keeper should sync unprompted when a turn in the story is about to make off-screen state matter.
+
+**Sync bookkeeping.** Each hidden sheet carries a `Synced:` line — the *world* date-time through which the sheet is true — updated whenever the sheet advances, by sweep or by mid-session intersection. The span a sweep must fill for a sheet is simply the world clock minus its `Synced:` value, so partially advanced sheets are never double-swept and never left with gaps. (Never reason from file modification times: real time is not world time.) Sheets without the line get stamped at their next sweep. An optional `Next:` line records a scheduled beat — "Next: Day 2, third hour of light — the survey descends" — so timed threads aren't forgotten.
 
 **The player's slice.** Between sessions the player is in torpor by rule. For a `/ff` where the player hasn't said what they did, ask which of three the span should be: **torpor** (the body freezes per rules.md), **automatic** (narrate whatever makes most sense for the character to be doing), or **specify** (the player describes it — "3 days on the road, then 2 in my lab, after briefly checking in with Silas"). A specification is an inviolable frame: fill it in, never derail it — if they spent two days in the lab *after* the check-in, nothing at the check-in may have sent them elsewhere.
 
@@ -118,7 +122,8 @@ Conventions, not software. Recognize these — and natural-language equivalents 
 | `/time` | current world date and time |
 | `/hp` | your condition, in prose — wounds, fatigue, hunger |
 | `/inventory` | what you're carrying |
-| `/ff <duration>` | fast-forward world time (e.g. `/ff 2h`, `/ff 3 days`); unless the player says what they did, ask: torpor, automatic, or specify |
+| `/ff <duration>` | fast-forward world time (e.g. `/ff 2h`, `/ff 3 days`); syncs the world first, and unless the player says what they did, asks: torpor, automatic, or specify |
+| `/sync` | true up off-screen hidden sheets through the present moment (runs implicitly inside every `/ff` and at close) |
 | `/freeze` `/unfreeze` | stop and restart the world clock |
 | `/save [name]` | seal the moment as a named save point (see Git, below) |
 | `/rollback [name]` | return to a save point (see Git, below) |
