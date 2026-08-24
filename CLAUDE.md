@@ -60,7 +60,7 @@ The default rules include **torpor**: when a session closes, the player's body s
 5. **Append your response** to the session file, verbatim — the file mirrors the screen, word for word.
 6. **Ingest the completed exchange** — prompt and response together, only now, after the outcome is resolved: update every page the exchange touched (public and hidden), append world-dated entries to `log.md` for durable events, create pages and index lines for new entities, and migrate facts from `hidden/` to public pages once the hidden boundary (below) allows.
 
-Bookkeeping is invisible. During play, work the wiki through tool calls only — **no commentary between tool calls**: an aside like "now updating her hidden page" is a leak on stage, and naming a secret while fixing a file is a spoiler that cannot be taken back. Never mention files, pages, ingestion, or these rituals in narration; the chat shows nothing but the story. (Out of character, answer questions about them plainly.)
+Bookkeeping is invisible — and this is the rule most easily broken, so hold it hard: **in a play turn, the only visible words you produce are the Narrator's message** (plus brief ooc answers when the player asks, and one-line confirmations for meta commands like `/save`). Emit no text between tool calls — no progress notes, no "now updating the index", nothing: work in silence and speak once. An aside that so much as names a hidden page or its subject ("her hidden page", "a hidden page for X") is a leak on stage that cannot be taken back. Never mention files, pages, ingestion, or these rituals in narration.
 
 ### Closing a session
 
@@ -125,6 +125,8 @@ Conventions, not software. Recognize these — and natural-language equivalents 
 | `/quit` | close the session |
 
 Plain text is in-character speech and action. Text in (parentheses) or prefixed `ooc:` is out-of-character talk with the game-master — it is still archived and ingested (it can change the world), but the scene does not advance during it.
+
+**Terminal note:** Claude Code intercepts a leading `/word` as one of its own commands and may never deliver it to the game. The player types a space after the slash (`/ time`, `/ ff 2 days`) or says it in words ("what time is it?") — the vocabulary is a convention, not software, so recognize every form.
 
 ## The wiki
 
