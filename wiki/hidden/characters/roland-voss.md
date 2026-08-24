@@ -8,6 +8,8 @@ He does not know the mountain is inhabited. The mountain knows the ship is: the 
 
 His pulses just reached the second-in-command's pod-side nav display too — weak, intermittent, unidentified, but bearing squarely on the fixed land he crashed into. Neither of them knows the other received anything.
 
+By first dark of Day 1, the Veth survey reached a ridge overlooking the wreck. Their instruments count exactly one heat signature inside the hull, moving little and regularly — alive, injured or resting. They have settled in to watch it through the night rather than approach; the archives counsel patience, and the Veth have never lacked it.
+
 ## Tasks
 
 - **Active:** stay alive; keep the beacon pulsing; inventory what survived.

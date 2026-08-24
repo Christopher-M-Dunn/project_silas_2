@@ -6,6 +6,8 @@ Sefa's pod ejected clean but shed its chute early, and came down shattered on th
 
 Sefa, concussed or not, is a scientist to the bone: their longhand journal already contains the sentence *"the island is feeding me deliberately"* — underlined twice — and margin-sketches of every gift. Of all the crew, Sefa is closest to grasping what the locals actually are.
 
+**Day 1, through first dark:** in and out of consciousness beside the broken pod. Between wakings, the ground under them softened by degrees and a windbreak of broad leaves thickened against the night; they woke once in the dark to find a water-gourd standing within reach of their good arm that had not been there before, drank it, and managed one journal line by feel before going under again: *"the island is feeding me deliberately"* — underlined twice.
+
 ## Tasks
 
 - **Active:** heal; keep the journal; test the hypothesis politely (leave offerings? say thank you? note results).
