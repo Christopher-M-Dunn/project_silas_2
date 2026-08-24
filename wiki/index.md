@@ -4,16 +4,21 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## World
 
-- [[rules]] — the physics of the world and the player's powers; the player's own page
-- [[clock]] — current world time, its real-time anchor, freeze state
+- [[rules]] — world architecture (14-hour days, breathable air, torpor) and the player's out-of-session powers
+- [[clock]] — world time in 14-hour days, its real-time anchor, freeze state
+- [[the-planet]] — the unnamed lush ocean world: amber sky, floating green islands, one glimpse of fixed stone
 
 ## Characters
 
-*(none yet)*
+- [[player]] — the *Kestrel*'s second-in-command: alone in the escape pod, identity not yet established
+- [[roland-voss]] — captain of the *Kestrel*; by-the-book, buried humor; fate unknown
+- [[juno-park]] — ship's engineer; spite-based maintenance, allergic to sentiment; fate unknown
+- [[sefa-naim]] — medic and survey scientist; gentle, curious, keeps a field journal; fate unknown
 
 ## Locations
 
-*(none yet)*
+- [[the-kestrel]] — the survey ship, crashed somewhere unknown on this world
+- [[escape-pod]] — the player's single-berth pod, down and intact; air outside reads breathable
 
 ## Items
 

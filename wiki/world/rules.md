@@ -1,5 +1,10 @@
 # Rules of the World
 
+## Established rules of this world
+
+- **The day is 14 hours long.** One full day-night cycle of this planet runs 14 hours — roughly seven of diffuse amber light, seven of deep dark — and everything that keeps time here keeps it in 14-hour days.
+- **The air is breathable.** Confirmed by the escape pod's sensors; no suit or filter needed.
+
 **This page belongs to the player.** It defines the architecture of the world: established rules that operate without the player's input, and the player's formal powers outside the story. The player may change it at any time **from outside a session** — in a workshop conversation, or by editing it directly — and changes take effect at once. It overrides genre convention and every other page in the wiki. What the character can do *inside* the story lives on the player's character page instead.
 
 ## The player's body
