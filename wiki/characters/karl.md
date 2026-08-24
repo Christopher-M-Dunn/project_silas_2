@@ -4,9 +4,7 @@ Innkeeper of the [[slippery-gypsy-inn|Slippery Gypsy Inn]] in [[ravencraw|RavenC
 
 Reports that Silas hasn't left his room in about three days — no meals, no visits to the privy that Karl's seen. Knocked twice: the first time Silas asked him to leave the tray and go; the second time, no answer, but Karl heard him inside, talking — arguing, by the sound of it — with no one else in the room. Worried enough to ask Christopher outright whether Silas is in some kind of trouble.
 
-Handed over his master key to let Christopher into Silas's locked room, against his own visible reluctance. Saw something in that moment — Christopher's face doesn't say what — that left him backing toward the stairs without a word, and he didn't go up again for a week.
-
-A week of total silence from the room finally decided him: he went up with the master key, meaning to force the door if he had to — and found a travel-worn stranger, Maren, arriving at his front desk asking after Silas Ashwood at the very same moment. He took her up himself. What they found on opening the door, neither of them was prepared for.
+Handed over his master key to let Christopher into Silas's locked room, against his own visible reluctance. Saw something in that moment that left him backing toward the stairs without a word — what it meant to him, he hasn't said. A week later he was standing in Silas's open doorway, master key raised, with the just-arrived Maren beside him, at the very moment Christopher's week-long suspension broke; neither of them looked prepared for what the door opened onto.
 
 Fetched Christopher something to wear before Maren had to ask, and has kept broth, clean water, and a proper washbasin coming to Silas's room since — the mundane, useful kind of help, offered without needing the full story first.
 
