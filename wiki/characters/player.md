@@ -24,6 +24,8 @@ Assesses the book's entity as a magical familiar of unprecedented strength — f
 
 Unwilling to wait that long, he revealed a superpower to Silas, swearing him to secrecy: he can bend time around himself so he doesn't experience its passage, extend that to objects on him, and — at a near-total cost of his own aura — extend it to one other person. Used it on himself and Silas together to skip the week the elders needed, lying fully matched to Silas palm-to-palm and forehead-to-forehead to hold the effect around them both.
 
-**Condition:** aura spent, exhausted, in [[silas-ashwood|Silas]]'s room at the Slippery Gypsy Inn on the 27th of Greenveil — the major ward has since faded, and with the perception spell it was blocking gone too, he's now plainly, visibly naked in front of Karl and a newly arrived [[maren-ashwood|Maren]].
+Gave Maren a partial explanation — that Silas is afflicted by something old and dangerous bound in their father's book, that he's trying to help, that he's more than he looks — without going into who or what he actually is. Contacted the elders again once their week was up; their answer came shorter and colder than before, ending with word they'll receive him soon, on their own timing.
+
+**Condition:** in [[rules|torpor]], slumped over his own worktable at his laboratory in RavenCraw as of the 30th of Greenveil, the elders' summons still unanswered.
 
 **Carrying:** the [[small-green-book]], bound in a stable glow and tied around his neck on a red cord.

@@ -10,7 +10,7 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## Characters
 
-- [[player]] — Christopher, the traveler: shapeshifter and mage, aura spent, reunited with Maren at the Slippery Gypsy Inn
+- [[player]] — Christopher, the traveler: shapeshifter and mage, in torpor at his RavenCraw laboratory, elders' summons still pending
 - [[silas-ashwood]] — Maren's estranged brother, wasted by the book's affliction; reunited with her in RavenCraw
 - [[maren-ashwood]] — keeper of the Sleeping Dragon; walked the north road alone to reach her brother
 - [[kael-ironhand]] — boisterous master blacksmith who won't say why he left Stonefall
@@ -28,7 +28,8 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 - [[thornwood-forest-edge]] — where the ancient oaks close overhead
 - [[thornwood-clearing]] — wildflowers, mossy stones, and an unexplained old well
 - [[ravencraw]] — a small walled town several days' hard travel up the north road; cramped lanes, a night guard who knows Christopher's face
-- [[slippery-gypsy-inn]] — RavenCraw inn where Silas Ashwood can be found; lit and awake despite the hour
+- [[slippery-gypsy-inn]] — RavenCraw inn where Silas Ashwood lodges, and where Maren found them both
+- [[christophers-laboratory]] — cluttered rooms above a shuttered apothecary's, where Christopher reaches the elders
 
 ## Items
 

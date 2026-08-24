@@ -8,4 +8,6 @@ Handed over his master key to let Christopher into Silas's locked room, against 
 
 A week of total silence from the room finally decided him: he went up with the master key, meaning to force the door if he had to — and found a travel-worn stranger, Maren, arriving at his front desk asking after Silas Ashwood at the very same moment. He took her up himself. What they found on opening the door, neither of them was prepared for.
 
-**Currently:** standing in the doorway of Silas's room at the Slippery Gypsy Inn, key still in hand, on the 27th of Greenveil.
+Fetched Christopher something to wear before Maren had to ask, and has kept broth, clean water, and a proper washbasin coming to Silas's room since — the mundane, useful kind of help, offered without needing the full story first.
+
+**Currently:** running the Slippery Gypsy Inn as of the 30th of Greenveil, with Maren and a recovering Silas still lodged upstairs.

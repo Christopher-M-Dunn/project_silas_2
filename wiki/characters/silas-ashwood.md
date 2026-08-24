@@ -11,3 +11,5 @@ His voice on waking was wrecked, unused-to-gently. His first words to Christophe
 Pressed on it, he describes the entity's voice going quieter — not silent — two or three days after Christopher left Briarhollow with the book, then returning three days ago in a colder, more patient register, as if she'd stopped raging and started calculating. That's when he stopped being able to leave his room. He wants to seek out "the elders" Christopher mentions, and is done being alone with her voice.
 
 When the elders proved a week out, he agreed — warily — to let Christopher use an undisclosed power to skip that week for the two of them, lying still against him for it and swearing not to tell anyone what he saw. Came out the other side of it to find his sister **Maren** in the doorway, alive and well and having crossed the length of the road he never did, eleven years after he walked away from her.
+
+In the days since, Maren hasn't left his side — feeding him, cleaning up the room, refusing to be talked out of it. He's eaten a full meal and kept it down for the first time in over a week, and while still gaunt and weak, he's no longer wasting by the hour.

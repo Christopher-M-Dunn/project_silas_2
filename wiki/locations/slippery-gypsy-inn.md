@@ -1,9 +1,9 @@
 # The Slippery Gypsy Inn
 
-An inn in a small crooked square in [[ravencraw|RavenCraw]], signed with a painted dancer mid-kick. Run by innkeeper [[karl]], who knows [[player|Christopher]] by name. [[silas-ashwood|Silas Ashwood]] lodges here, holed up in his room for the past three days.
+An inn in a small crooked square in [[ravencraw|RavenCraw]], signed with a painted dancer mid-kick. Run by innkeeper [[karl]], who knows [[player|Christopher]] by name. [[silas-ashwood|Silas Ashwood]] lodges here.
 
-Common room: a banked fire, two empty chairs pulled close to it, a bar Karl keeps busy wiping down at all hours. Quiet and near-empty in the small hours of the 20th of Greenveil, though lit and awake despite the hour.
+Common room: a banked fire, two chairs pulled close to it, a bar Karl keeps busy wiping down at all hours.
 
-Silas's room, upstairs, kept locked: a rough ring scratched into the floorboards around the bed, close to a warding sigil but not quite one; a broken line of salt across the threshold; the one mirror turned to the wall and nailed shut that way; days of food gone bad on the floor untouched; a fallen chair no one's righted. Christopher and Silas spent a week sealed in there, unseen and unheard by anyone downstairs, until Karl finally climbed the stairs with his master key — meeting [[maren-ashwood|Maren]], newly arrived and asking after Silas by name, on the way up.
+Silas's room, upstairs: the scratched warding ring and broken salt line are still there underfoot, and the mirror's still turned to the wall, but the spoiled food is gone and Maren's kept the place otherwise livable since her arrival. She's rarely left Silas's side; Karl keeps broth and clean water coming up without being asked twice.
 
 **Connections:** opens onto its square in RavenCraw, a short walk from the town's north gate.

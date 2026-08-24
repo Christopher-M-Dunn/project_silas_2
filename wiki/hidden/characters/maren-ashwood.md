@@ -18,7 +18,7 @@
 
 - **Done:** got everyone out of the Sleeping Dragon and locked it up ahead of the wraith threat — no wraith ever came.
 - **Done:** reach Silas in RavenCraw. Left Briarhollow the 16th, eleven hard days on foot for a woman who hadn't traveled past the market in a decade, asked her way to the Slippery Gypsy Inn on arrival, and walked in on Karl about to force the door — timed, as far as she knows, to nothing but luck.
-- **Active:** get real answers — from Silas about what's actually wrong with him, and from Christopher about what she just walked in on and who, exactly, he really is.
+- **Active:** get real answers — from Silas about what's actually wrong with him, and from Christopher about what she just walked in on and who, exactly, he really is. Christopher's given her a partial answer (something dangerous bound in their father's book, he's "more than he looks"); she's shelved the rest of her questions for now, focused on getting food and rest into Silas, but hasn't forgotten she's owed the whole story.
 - **Interrupted:** catch the market thief with proof, before the stall-keepers start blaming each other. — interrupted by the wraith threat and the tavern evacuation.
 - **Planned:** quietly warn Kael if the Stonefall questions ever come closer than two towns away.
 - **Ongoing:** keep the tavern running and profitable; it is fifteen years of her life and all of his that's left.

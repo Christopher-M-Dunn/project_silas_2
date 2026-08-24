@@ -86,3 +86,8 @@ Christopher calls out to the council of elders; their answer is that a full asse
 
 **27th of Greenveil, Year 512 of the Broken Crown — early afternoon** `session:2026-08-23-1427.md`
 The week ends. Christopher and Silas stir to find the door open: Karl, finally climbing the stairs after a week of silence, and beside him **Maren**, just arrived in RavenCraw after walking the length of the north road alone. She and Silas see each other for the first time in eleven years.
+
+---
+
+**27th–30th of Greenveil, Year 512 of the Broken Crown** `catchup`
+Three days pass (`/ff`). Maren doesn't leave Silas's side, nursing him back to a full meal kept down for the first time in over a week. Christopher gives her a partial explanation — something dangerous bound in their father's book, himself "more than he looks" — that she accepts for now without being satisfied. Once rested, Christopher returns to his own laboratory in RavenCraw and reaches out to the elders again; their answer is shorter and colder than before, promising to receive him soon, on their own timing.
