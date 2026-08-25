@@ -1,15 +1,47 @@
-# The Second-in-Command (player)
+# Lieutenant Kristoff (player)
 
 *This page is the player's character. It has no hidden side — the player's mind belongs to the player.*
 
-Second-in-command of the survey vessel [[the-kestrel|*Kestrel*]], lost with the rest of the crew in an uncharted region of space, and now down on an unknown, lush ocean world. Name, face, and history: not yet established — the first session will begin to write them.
+Second-in-command of the survey vessel [[the-kestrel|*Kestrel*]], lost with the rest of the crew in an uncharted region of space, and now down on an unknown, lush ocean world. Face and history: not yet established beyond what's below.
 
-The rest of the crew — Captain [[roland-voss]], engineer [[juno-park]], and Dr. [[sefa-naim]] — were last seen in the chaos of the evacuation. Their fates are unknown.
+The rest of the crew scattered in the evacuation. Captain [[roland-voss]] is alive and reunited with them as of Day 3; engineer [[juno-park]] and Dr. [[sefa-naim]] remain unaccounted for.
 
 Woke in [[escape-pod|the escape pod]] after the crash and, getting no answer after an hour of radio calls, swam to the nearest floating island, a vast raft they've started privately calling **Rusty**. Ate its fruit despite ambiguous safety readings with no ill effect, and over the course of an afternoon confirmed — first by watching it regrow food in real time, then through an escalating exchange of knocks — that it is aware, communicative, and capable of originating meaning, not just echoing it. Recovered the drifting pod by roping it in; Rusty closed the rest of the distance itself and now holds it nested against its edge. The pod's nav display briefly showed a weak directional bearing aligned with a fixed grey landmass seen from Rusty's height — the first hint of anything else out there.
 
-Asked Rusty — by orientation and a repeated pointing gesture — to travel toward that landmass. It turned and got underway.
+Asked Rusty — by orientation and a repeated pointing gesture — to travel toward that landmass. It turned and got underway, and held that course through a full night and day; the second-in-command slept through all of it, in torpor.
 
-**Condition:** alive, fed, and asleep (torpor) on Rusty's back, riding it through the first night since the crash toward the grey landmass.
+Ate, checked the pod, and worked the stiffness out of a body that had lain still for a day. Rusty carried them the rest of the way through full dark, threading reef and shoal, and stopped completely at the base of a cliff on the landmass — the first fixed ground either of them has reached. Chose to wait out the rest of the night in place rather than move on it in the dark. Woke at dawn to a windbreak Rusty had grown overnight, a cliff face resolved into unmistakably worked terraces and openings, and several coordinated shapes closing in on the water behind them — unidentified, and not something Rusty seems to read as a threat. Left Rusty and swam the short, rocky stretch to the cliff's base alone; the shapes closed distance fast and arrived as landfall did — [[the-sleek-creatures|five sleek, dark-eyed, amphibious creatures]], built somewhere between otter and something larger, holding just short of the rock, watching. Approached cautiously and, at arm's length, felt an unmistakably external wave of calm settle over their own fear — the creatures project feeling, not just read it. Tried words, then a mimed gesture — a pod falling, a tap to the chest, a question toward the horizon — asking whether they'd seen the rest of the crew. No sign the gesture itself was understood, but something underneath it clearly was: the calm shifted, briefly, into a secondhand echo of fear that felt unmistakably fourfold.
 
-**Carrying:** a survival handheld with spectrographic sampling, worn on their person. The pod's stores (rations, med kit, thermal sheet, tool roll) are with them again now that the pod itself has been recovered.
+Said goodbye and headed inland alone. The creatures didn't follow past the waterline, sending one last light pulse of curiosity as parting. Up close, [[the-terraced-shore|the cliff]] is unmistakably worked and recently tended — terraces, cultivated plants, and a dark, silent doorway into the rock that doesn't quite feel empty.
+
+Searching the terraces before trying the doorway, found a small worked, warm object — the [[spiral-token]] — deliberately placed in a hand-height niche for a searching hand to find. Called out for the crew by name, then for anyone, into open air with no answer. Called into the doorway itself and got one: a low resonant tone from somewhere inside, and a soft light kindling in the dark, steady, unmoving. Went in, cautious, keeping the exit close — and found [[the-terrace-dweller]] waiting at the edge of the light: tall, slight, dark-skinned, large-eyed, hands open and empty, neither approaching nor retreating.
+
+Frightened, backed out and retreated to the doorway apologizing; [[the-terrace-dweller]] let them go without following.
+
+Put distance between themselves and the doorway, then looked the token over properly: hand-worked, unmarked but for the spiral, and warm with a slow, deliberate pulse against the palm. Pocketed it and checked the survival handheld's receiver — picked up a weak, intermittent, unmistakably artificial pulse, same signature the pod's nav display once caught faintly from open water, now stronger: bearing inland along the coast, not confirmed as anyone specific.
+
+Followed the bearing inland, fast, over an hour of rough climbing, and crested a ridge to find wreckage in the valley below — [[the-kestrel|almost certainly the *Kestrel*]] — and, closer, two more figures like [[the-terrace-dweller|the one from the terrace]], crouched watching the wreck, unaware they've been seen.
+
+A closer look at the two watchers confirms the same build and skin as the terrace dweller — likely the same kind of being — though each carries something strapped to a forearm the terrace dweller didn't have. Skirted around them undetected (one close call with a loose stone) and reached a shelf right below the wreck — close enough to see, through the buckled hull, [[roland-voss|Captain Voss]] alive inside, leg splinted, unaware anyone's found him. Chose to wait out the day hidden rather than approach in daylight, watching Voss and a watcher rotation/second approach from cover, with no food or water the whole time. After dark, approached the gash and whispered his name; proved their identity with a detail only they'd know, and was pulled into a hard, wordless grip before Voss reverted to captain-mode — "Report" — and handed over a canteen before waiting for an answer.
+
+Reported the last two days to Voss — Rusty, the sleek creatures, the terrace dweller, the watchers — and learned in return that he's had zero contact with anyone or anything, human or otherwise, the entire time. Assessed the wreck with him: gash passable but tight, deck canted, his leg unable to bear weight at all. No safe way to move him out tonight, past a patrol. Voss has handed the question of what to do next to them directly.
+
+Pointed out to Voss that the watchers' huge eyes and refusal to reposition after dark likely mean they see fine in the dark — meaning tonight's stealthy approach was probably never actually stealthy. Voss agreed, read the watchers' behavior so far as patient rather than hostile, and put the decision in Kristoff's hands: keep hiding and hope, or go out and make the exposure deliberate.
+
+Countered that two days of pure watching reads as consistent with defensive caution, not just patience, and proposed a plan Voss approved: skip relocating tonight — too noisy for no real gain if the watchers see fine in the dark — and instead walk out together, openly, straight from the wreck at first light. Confirmed Voss's leg: closed break, well-splinted, no infection, can't bear weight.
+
+Slept thin and broken through the rest of the night beside Voss, woke at first light with him already alert. Salvaged the wreck's nav screen and flare gun, helped Voss up onto an improvised crutch, and walked out with him into the open — slow, hands visibly empty, holding eye contact with the watchers at range rather than avoiding it. The watchers shadowed along the ridge the whole descent without closing in, and stopped at the edge of tended ground when the pair reached open shore. Rusty is visible down the coast, still waiting.
+
+Walked Voss the rest of the way to Rusty, which recognized them at range and grew a ramp unprompted for the bad leg. As they boarded, [[the-sleek-creatures|the sleek creatures]] resurfaced and fixed entirely on Voss, reading him the way they once read Kristoff.
+
+Talked Voss through closing his eyes for the creatures' projection while swapping the wreck's nav screen into the pod's cracked housing — full resolution restored, and a clean sweep of the spectrum turns up only Voss's own beacon. No sign of Juno or Sefa transmitting yet.
+
+Shared Rusty's fruit with Voss, who ate gratefully and noted the water content. Moments later Rusty grew an unidentified, sharp-smelling plant near Voss's injured leg, unprompted — untested so far.
+
+Tested the new plant with the handheld: high alkaloid content, possible neurotoxin. Both agreed not to eat it; Rusty hasn't withdrawn the offer.
+
+Voiced the fear that Juno or Sefa might not have survived long enough to reach a beacon at all. Voss didn't deny the possibility, named his own history with that kind of loss, and redirected both of them toward what's actionable: better tools, a better map, ready to move the moment either beacon lights up.
+
+**Condition:** alive, aboard [[the-raft|Rusty]] with [[roland-voss|Voss]], no search to run yet, focus shifting to what can actually be improved from here.
+
+**Carrying:** a survival handheld with spectrographic sampling, worn on their person, the [[spiral-token]], and now a nav screen and flare gun salvaged from the *Kestrel*'s wreck. The pod's stores (rations, med kit, thermal sheet, tool roll) are back aboard Rusty, down at the shore.

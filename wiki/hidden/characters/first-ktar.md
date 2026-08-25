@@ -8,10 +8,23 @@ Touch turned out to be a real channel, not just hospitality. Struck deliberately
 
 Its newest understanding: the guest wants to travel, specifically toward the fixed land to the west — asked for, as best it could tell, by orientation, pressure, and a repeated pointing drag of the palm. It knows fixed lands; they belong to the [[veth|Veth]], and a Ktar passing near one is nothing unusual, done a hundred times across a life measured in centuries. It has agreed, and turned, and is carrying its guest there now, unhurried, through the first night — pleased to have been asked something it could simply *do*, for once, instead of having to guess.
 
+**Through Day 1's dawn and daylight, into Day 2's second dusk:** held course through the night and into the first true dawn since the guest came aboard, then the long daylight crossing — steady, unhurried, ordinary Ktar pace, the grey shape ahead slowly resolving out of haze into a real coastline: cliffs, terraces, here and there a hint of something worked rather than grown. By second dusk it has reached the fringe of Veth home water — reefs, shoals, a change in the swell — and slowed accordingly, easing through rather than pushing, the way it would for any shore it didn't want to run aground on. Still carrying the guest and the recovered pod. Has not yet worked out how to signal that this landfall is anything but routine.
+
+At second dusk, read a new hesitation in the guest's body language — pacing, a held-back posture near the trailing edge, unlike anything it had provided for before — and opened a drain toward the waterline in response, away from any fruit growth. Another small proof of the same pattern: it watches what the body needs before the need is asked for.
+
+Threaded the last stretch of reef and shoal in full dark and came to rest at the base of the cliff itself, tucked into its lee out of habit and caution both. Has stopped completely — no further growth, no path offered toward the rock. Still hasn't worked out how to signal that this landfall isn't routine; for now, simply waiting to see what its passenger does next.
+
+When the guest settled in to wait out the rest of the night rather than move on, it read that as its cue: began, slowly, the deliberate growth its "stays beyond this crossing" task had been waiting on. By dawn a rough windbreak of thickened fronds has risen along the raft's exposed flank, and the sleeping-hollow the guest woke in has been coaxed a little deeper and softer. Small, unasked-for, exactly the shape of the pattern it's been reading all along. Still hasn't solved the signaling problem — no Veth-legible gesture has occurred to it — so for now it simply sits, conspicuous only in being still.
+
+**Through Day 3's daylight and dark, to Day 4's dawn:** held position at the base of the cliff the whole span, guest gone inland and not returned. Read the absence as significant rather than alarming — the guest left deliberately, carrying nothing that suggested abandonment — and used the time the way it uses most time: growing. Thickened the windbreak further, worked a second, shallower hollow into the flank on the theory that a returning guest might not be alone, and kept fruit ripening on schedule out of habit more than expectation. No word yet on how to signal the fixed-land people; still hasn't needed to, since none have approached it directly.
+
+Read the new guest's injury (posture, favored leg, the smell of pain sweat it's had three days to learn on the first one) and grew something for it unprompted — a real answer, not a guess: genuinely alkaloid-rich (the handheld's flag was accurate, not a false positive), potent enough in the raw leaf to be dangerous if eaten in any quantity, but mildly analgesic and anti-inflammatory in the small doses crushed sap or a diluted preparation would deliver — the same margin between medicine and poison that alkaloid plants split back on the *Kestrel*'s homeworld too. No way to convey the dosage instructions that make the difference. Untouched so far; both humans erring toward caution.
+
 ## Tasks
 
-- **Active:** carry the guest and the recovered pod toward the fixed land to the west, through the night, at ordinary Ktar pace.
 - **Active:** keep providing on need rather than request — food, cordage, whatever comes next.
 - **Active:** keep learning the shape of this particular person: what a knocked question means, what a held silence means, what counts as thanks.
-- **Planned:** once closer to the fixed land, decide how to signal the approach — a Ktar nearing Veth shore is routine to Veth watchers, but this passenger isn't, and it doesn't yet know how to convey that distinction, or whether it should try.
-- **Planned:** if the guest stays beyond this crossing, begin growing something more deliberate than fruit — shelter, a windbreak, whatever the pattern of need suggests next.
+- **Active:** decide how to signal that this landfall isn't routine — still unresolved, still not urgent.
+- **Active:** grew a second hollow and thickened the windbreak, anticipating the guest might return with company.
+
+**Synced:** Day 4 since planetfall, roughly second hour of light

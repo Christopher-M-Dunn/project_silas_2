@@ -10,4 +10,6 @@ No flotation gear was found aboard — the stores (rations, med kit, thermal she
 
 Back aboard, repeated radio calls still draw no voice response, but the cracked nav display briefly came alive: an intermittent, weak directional bearing on an unidentified signal, holding roughly the heading of the fixed grey landmass seen from the raft.
 
+On Day 4, its cracked nav display was swapped for a working screen salvaged from the *Kestrel*'s wreck — full resolution restored. A clean spectrum sweep afterward turned up only [[roland-voss|Voss]]'s beacon; no sign yet of Juno or Sefa transmitting.
+
 **Where:** nested against [[the-raft]], held by its growth rather than freely adrift.

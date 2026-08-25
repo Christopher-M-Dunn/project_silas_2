@@ -10,20 +10,23 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## Characters
 
-- [[player]] — the *Kestrel*'s second-in-command: asleep aboard a living raft underway toward a fixed landmass, identity not yet established
-- [[roland-voss]] — captain of the *Kestrel*; by-the-book, buried humor; fate unknown
+- [[player]] — Lieutenant Kristoff, the *Kestrel*'s second-in-command, reunited with Captain Voss in the wreck
+- [[roland-voss]] — captain of the *Kestrel*; by-the-book, buried humor; alive, reunited, aboard Rusty with a broken leg
 - [[juno-park]] — ship's engineer; spite-based maintenance, allergic to sentiment; fate unknown
 - [[sefa-naim]] — medic and survey scientist; gentle, curious, keeps a field journal; fate unknown
+- [[the-sleek-creatures]] — five amphibious creatures encountered at dawn below the cliff; project felt emotion, unnamed so far
+- [[the-terrace-dweller]] — tall, slight, dark-skinned, large-eyed; first sapient stranger seen face to face on this world
 
 ## Locations
 
-- [[the-kestrel]] — the survey ship, crashed somewhere unknown on this world
+- [[the-kestrel]] — the survey ship; wreck found inland from the terraced shore, Captain Voss rescued from it
 - [[escape-pod]] — the player's single-berth pod, recovered and nested against [[the-raft|Rusty]]'s edge
-- [[the-raft]] — "Rusty": a vast, aware floating island, now carrying the player and the recovered pod toward a fixed grey landmass
+- [[the-raft]] — "Rusty": a vast, aware floating island, now holding position at the base of a cliff on a fixed grey landmass
+- [[the-terraced-shore]] — worked terraces on the fixed landmass; home to [[the-terrace-dweller]], met and left behind
 
 ## Items
 
-*(none yet)*
+- [[spiral-token]] — a small dark object, worked and warm, found deliberately placed on the terraced shore; origin unknown
 
 ## Events
 

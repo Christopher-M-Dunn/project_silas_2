@@ -13,11 +13,12 @@ One line per hidden page. This file lives inside `hidden/` so that secret titles
 
 ## Characters
 
-- [[roland-voss]] — where the captain and the *Kestrel* actually are
+- [[roland-voss]] — found and reunited; what he doesn't know is how much the Veth survey already saw
 - [[juno-park]] — whose guest the engineer has become
 - [[sefa-naim]] — what is tending the doctor
-- [[first-ktar]] — "Rusty": the raft is alive, aware, and now carrying its guest toward Veth shore
-- [[sorrai-kin-raft]] — distant kin-raft converging on the player's feeling; unaware their target is now underway too
+- [[first-ktar]] — "Rusty": the raft is alive, aware, and has carried its guest to Veth shore
+- [[sorrai-kin-raft]] — the kin-raft that made first contact at dawn; knows more about the night of the fall than it's said
+- [[terrace-veth]] — tends the shore the player climbed; left the spiral token, now watching from the doorway
 
 ## Locations
 
@@ -25,7 +26,7 @@ One line per hidden page. This file lives inside `hidden/` so that secret titles
 
 ## Items
 
-*(none yet)*
+- [[spiral-token]] — Veth-made, deliberately placed for the player to find; a first overture, not a tool
 
 ## Events
 

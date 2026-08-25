@@ -8,8 +8,16 @@ Fruit-like growths hang low near the waterline; a handheld spectrograph reads th
 
 **It is confirmed aware and communicative.** Knocked on directly, it knocks back — mirrors novel rhythms exactly, and once reproduced a full three-minute song from a single hearing before adding an original phrase of its own, shaped like a question. It offers what's needed before being fully asked: fruit that grows back the moment it's wanted, cordage that toughens in the hand mid-pull. It can also move itself with intent, not just drift — it closed distance to the recovered [[escape-pod]] unprompted and rose around the hull to cradle it in place.
 
-Asked — by orientation, pressure, and a repeated pointing gesture — to travel toward the grey landmass, it turned and is now doing so, steadily, through the first night since the crash.
+Asked — by orientation, pressure, and a repeated pointing gesture — to travel toward the grey landmass, it turned and is now doing so, and has held that course through a full night and day. The landmass has resolved out of haze into a real coastline — cliffs, terraces, something that might be worked rather than grown — and by second dusk the raft has reached its fringing shallows, easing through reefs and shoals more carefully than it moved in open water.
 
-**Where:** open water somewhere on [[the-planet]], underway toward the fixed grey landmass, [[escape-pod|the recovered pod]] held against its edge.
+Its accommodations aren't limited to food: toward the trailing edge, away from any fruit cluster, a smooth-sided groove sloped toward the waterline turned out to function as a latrine — not there the day before, or simply not needed until it was.
 
-**Currently:** the player's first solid ground since the crash, first confirmed contact with something aware on this world, and now their transport — carrying them through the night toward a coastline neither has seen up close.
+Overnight, unasked, it grew a windbreak along its exposed flank and worked the player's sleeping-hollow softer and deeper — the same pattern as the fruit and the drain: providing before being asked, once it read that its passenger meant to stay through the dark.
+
+**Where:** holding position at the base of a cliff on the grey landmass, [[the-planet]], [[escape-pod|the recovered pod]] still held against its edge.
+
+Recognized the player at range on their return and grew a ramp on the spot — reshaping a hummock to ease the climb for someone who can't bend one leg — before either of them was close enough to knock. Never needed to do that before; didn't hesitate now that it did.
+
+Grew a new, low, broad-leafed plant near Voss's injured leg unprompted, giving off a sharp medicinal smell. Spectrograph reading: high alkaloid content, possible neurotoxin — not safe to eat. Left untouched, and untouched by Rusty in response; the offer stands regardless.
+
+**Currently:** at the shore, Day 4, with [[roland-voss|Captain Voss]] aboard for the first time — first contact between Rusty and a second human, now offering him something neither of them has identified yet.
