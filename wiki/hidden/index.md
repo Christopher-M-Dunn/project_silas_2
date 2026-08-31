@@ -10,6 +10,7 @@ One line per hidden page. This file lives inside `hidden/` so that secret titles
 - [[veth]] — the technical people of the fixed lands; tracked every impact; a survey already moving
 - [[sorrai]] — the feeling-people; felt four terrors fall from the sky; some have gone looking
 - [[ktar]] — the islands themselves, and how they speak
+- [[the-anomaly]] — what actually happened to the *Kestrel*; not a crash, and not the first time
 
 ## Characters
 

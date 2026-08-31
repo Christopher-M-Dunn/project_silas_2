@@ -26,9 +26,12 @@ When the new mind turned to go, wordless gesture of departure and all, they let 
 
 Sent calm, same as the first time with Kristoff, once the new mind closed its eyes and stopped fighting the read — deliberate and total, the second projection any of them have ever aimed at this kind of mind. It landed harder than expected: this one's control turned out to be a shell over something wound much tighter than the first mind's, and cracking it even slightly registered, to all five at once, as something closer to relief than shock. None of them have said so aloud (they don't have aloud), but the read has shifted their working theory — this species may not lack feeling, the way the first read suggested; some of them may simply have learned to bury it deeper.
 
+**Through the next hour, shore to shore:** followed [[first-ktar|Rusty]] along the coast without needing to be asked twice this time, reading the familiar mind's intent before the raft itself finished turning. Held off projecting anything further at the new mind, the argument about *how much* still unresolved. Watched the familiar mind go ashore alone at the new landing and the new mind stay behind, immobile — read the second one's stillness as something between caution and simple inability, and settled into holding the shallows rather than push further contact while it waited.
+
 ## Tasks
 
 - **Active:** decide what, if anything, to try next with the new mind — calm worked once; unclear whether to repeat it or wait.
 - **Ongoing:** the same argument, now sharper — one of them thinks revealing the fourfold echo was premature; the rest disagree, but not unanimously.
+- **Active:** hold the shallows at the new shore while the familiar mind is gone and the new one stays put.
 
-**Synced:** Day 4 since planetfall, roughly second hour of light
+**Synced:** Day 4 since planetfall, roughly third hour of light

@@ -2,10 +2,10 @@
 
 | | |
 |---|---|
-| **World time** | Day 4 since planetfall, roughly second hour of light. Voss and Kristoff aboard Rusty at the shore, the sleek creatures and the medicinal plant both left unresolved, priority shifted to improving tools and the map |
-| **True as of (real time)** | 2026-08-24 18:56 PDT |
-| **Frozen** | **yes** — since 2026-08-24 18:56 PDT |
-| **Last session close** | `raw/sessions/2026-08-24-1210.md` |
+| **World time** | Day 4 since planetfall, roughly third hour of light. Kristoff ashore alone at a new stretch of coast near the sighted smoke, torpor taken hold three steps up from the waterline; Voss aboard Rusty with the sleek creatures, still unable to bear weight. Recon not yet begun |
+| **True as of (real time)** | 2026-08-30 20:13 PDT |
+| **Frozen** | **yes** — since 2026-08-30 20:13 PDT |
+| **Last session close** | `raw/sessions/2026-08-26-1814.md` |
 
 This world's day is **14 hours** (see [[rules]]): seven hours of amber light, seven of dark. The crew reckoning is **days since planetfall** — the crash is Day 1. Local calendars, if the natives keep any, are unknown.
 

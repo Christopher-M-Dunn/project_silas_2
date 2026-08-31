@@ -34,7 +34,9 @@ Walked out on the crutch, first steps since the crash, hands empty, holding eye 
 - **Done:** work out roughly where the pods came down — resolved, his second-in-command found him.
 - **Active:** the rest of the crew — Juno, Sefa — still unaccounted for; get a real status update now that he has one more set of eyes and ears.
 - **Done:** get out of the wreck and off the ridge the watchers were shadowing — accomplished at dawn, on a crutch, in the open.
-- **Active:** reach the coast and whatever's waiting there — Rusty, the sleek creatures — and begin actually assessing them as assets or risks rather than secondhand reports.
+- **Done:** reach the coast and assess Rusty and the sleek creatures directly — accomplished; both read as non-hostile, Rusty's medicine tested safe.
+- **Active:** work out what actually happened to the *Kestrel* — no longer filed as a simple crash; shelved deliberately rather than solved, priority set on "work the planet" instead.
+- **Active:** hold position aboard Rusty while Kristoff recons the new shore alone; leg still won't bear weight.
 - **Ongoing:** the crew. All of it. A captain's arithmetic he runs every hour, awake or not.
 
-**Synced:** Day 4 since planetfall, roughly second hour of light
+**Synced:** Day 4 since planetfall, roughly third hour of light

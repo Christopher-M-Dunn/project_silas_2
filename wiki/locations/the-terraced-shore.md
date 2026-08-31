@@ -15,3 +15,5 @@ Past the doorway, the passage opens into a hollow the rock was persuaded rather 
 **Where:** the fixed grey landmass, reached from open water via [[the-raft|Rusty]].
 
 **Currently:** the player has since left this stretch of shore entirely — inland to the *Kestrel*'s wreck, then back to [[the-raft|Rusty]] at a different point on the same coastline. [[the-terrace-dweller]] presumably remains inside, unvisited since.
+
+From the shore on Day 4, a thin, steady column of smoke was spotted rising from higher, unexplored country further inland on the same landmass — past the terraces, past the last visible ridge. Unlike weather: doesn't billow or spread, holds to one fixed point. Nothing encountered so far — Rusty, the sleek creatures, or the terrace dweller — has shown any sign of using fire. Source unknown.

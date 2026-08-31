@@ -12,6 +12,8 @@ When the newcomer broke and retreated — small, apologetic, hands raised in a g
 
 **Through Day 3's daylight and dark, to Day 4's dawn:** waited through the day, then the night, with no sign of the newcomer returning. Began, cautiously, preparing the language-instrument on the theory that a second meeting will go better with it ready than improvised — slow, careful work, unfinished by dawn. Still hasn't approached the shore itself or told the wreck survey anything.
 
+**Through the second and third hours of light:** no sign of the newcomer's return. Kept at the language-instrument, unhurried — this is the kind of work the archives favor doing right over doing fast. Still hasn't approached the shore or told the wreck survey anything.
+
 ## Tasks
 
 - **Active:** wait — the newcomer left the doorway open rather than sealed or barricaded; that reads as *might return*, not *finished*.
@@ -19,4 +21,4 @@ When the newcomer broke and retreated — small, apologetic, hands raised in a g
 - **Planned:** if enough time passes without a return, consider approaching the shore itself rather than always waiting to be found.
 - **Ongoing:** report nothing to the wreck survey yet; this is a separate matter until it isn't.
 
-**Synced:** Day 4 since planetfall, first hour of light (dawn)
+**Synced:** Day 4 since planetfall, roughly third hour of light

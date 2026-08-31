@@ -7,6 +7,7 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 - [[rules]] — world architecture (14-hour days, breathable air, torpor) and the player's out-of-session powers
 - [[clock]] — world time in 14-hour days, its real-time anchor, freeze state
 - [[the-planet]] — the unnamed lush ocean world: amber sky, floating green islands, one glimpse of fixed stone
+- [[human-space]] — why rescue isn't coming: no bearing for a directed SOS, no power for a blind subspace broadcast
 
 ## Characters
 

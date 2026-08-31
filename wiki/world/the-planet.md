@@ -8,4 +8,6 @@ The pod's sensors read the outside air as breathable — pressure, mix, and temp
 
 Seen from atop one of the floating rafts, the ocean is dotted with several more of them within sight at once, and the grey fixed shape glimpsed during the crash-descent is a real, distant landmass — clearly not water, clearly not drifting, still too hazed at range to show any detail. Nothing further is known.
 
+**The sky has never shown a single star** — not once, day or night, since either survivor woke here. It's ordinary cloud cover, not something stranger: the *Kestrel*'s nav caught a real catalog of radio sources straight through it during the crash. The trouble isn't the clouds. It's that none of those sources cross-reference to anything on file — not one star, not one pulsar, nothing that lines up against charts built off Sol as zero. Connected on Day 4 to [[the-kestrel|the *Kestrel*'s missing Sagittarius A* lock]] in her last seconds before the crash: not a range or equipment problem, but readings that came back checked twice and matched nothing.
+
 The [[the-kestrel|Kestrel]] came down somewhere on this world. Where, and in what state, is unknown.

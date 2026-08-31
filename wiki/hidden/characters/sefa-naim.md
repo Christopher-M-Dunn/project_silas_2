@@ -14,10 +14,12 @@ Sefa, concussed or not, is a scientist to the bone: their longhand journal alrea
 
 **Through Day 3's daylight and dark, to Day 4's dawn:** the open-palmed pass got its answer by midday — a new growth, unlike anything offered before, unfurled directly over their resting spot: broad, layered leaves angled to break the worst of the light, a shelter rather than a meal. Logged it as the clearest two-way exchange yet, gesture for gesture. Stood, briefly, for the first time, with help from the pod's frame — ribs protested but held. Slept through the second night properly, waking clear-headed and, for the first time, hungry in a way that felt like recovery rather than survival.
 
+**Second and third hours of light:** stayed off the leg mostly, resting under the new shelter-growth, journal work continuing between naps — cataloguing every offering's timing against what she'd said or done beforehand, building toward a real pattern rather than a hunch. Hasn't yet attempted the beacon.
+
 ## Tasks
 
 - **Active:** heal; keep the journal; test the hypothesis politely (leave offerings? say thank you? note results).
 - **Done:** confirmed the open-palmed pass as a working signal — got a shelter-growth in response.
 - **Active:** rig something from the pod's beacon, now that standing is briefly possible.
 
-**Synced:** Day 4 since planetfall, first hour of light (dawn)
+**Synced:** Day 4 since planetfall, roughly third hour of light

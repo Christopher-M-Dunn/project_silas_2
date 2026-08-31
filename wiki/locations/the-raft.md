@@ -20,4 +20,8 @@ Recognized the player at range on their return and grew a ramp on the spot — r
 
 Grew a new, low, broad-leafed plant near Voss's injured leg unprompted, giving off a sharp medicinal smell. Spectrograph reading: high alkaloid content, possible neurotoxin — not safe to eat. Left untouched, and untouched by Rusty in response; the offer stands regardless.
 
-**Currently:** at the shore, Day 4, with [[roland-voss|Captain Voss]] aboard for the first time — first contact between Rusty and a second human, now offering him something neither of them has identified yet.
+Moved along the coastline on request, holding the shore at a steady remove rather than pushing back to open water — took longer to land the cue than the original landmass-heading did, but it came. [[the-sleek-creatures|The sleek creatures]] fell in alongside without being asked.
+
+The medicinal plant it grew unprompted near Voss's leg was tested on him — a diluted trace on his tongue, not swallowed, vitals watched throughout. Real pain relief within ten minutes, no adverse reaction. First confirmed case of Rusty's medicine working safely on a human.
+
+**Currently:** Day 4, holding at a new, unworked stretch of shore closer to the high country where smoke was sighted — Voss still aboard (can't yet bear weight), the sleek creatures still fanned out alongside. Kristoff went ashore for recon but fell into torpor a few steps up from the waterline before it began.

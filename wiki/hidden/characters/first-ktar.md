@@ -18,7 +18,11 @@ When the guest settled in to wait out the rest of the night rather than move on,
 
 **Through Day 3's daylight and dark, to Day 4's dawn:** held position at the base of the cliff the whole span, guest gone inland and not returned. Read the absence as significant rather than alarming — the guest left deliberately, carrying nothing that suggested abandonment — and used the time the way it uses most time: growing. Thickened the windbreak further, worked a second, shallower hollow into the flank on the theory that a returning guest might not be alone, and kept fruit ripening on schedule out of habit more than expectation. No word yet on how to signal the fixed-land people; still hasn't needed to, since none have approached it directly.
 
-Read the new guest's injury (posture, favored leg, the smell of pain sweat it's had three days to learn on the first one) and grew something for it unprompted — a real answer, not a guess: genuinely alkaloid-rich (the handheld's flag was accurate, not a false positive), potent enough in the raw leaf to be dangerous if eaten in any quantity, but mildly analgesic and anti-inflammatory in the small doses crushed sap or a diluted preparation would deliver — the same margin between medicine and poison that alkaloid plants split back on the *Kestrel*'s homeworld too. No way to convey the dosage instructions that make the difference. Untouched so far; both humans erring toward caution.
+Read the new guest's injury (posture, favored leg, the smell of pain sweat it's had three days to learn on the first one) and grew something for it unprompted — a real answer, not a guess: genuinely alkaloid-rich (the handheld's flag was accurate, not a false positive), potent enough in the raw leaf to be dangerous if eaten in any quantity, but mildly analgesic and anti-inflammatory in the small doses crushed sap or a diluted preparation would deliver — the same margin between medicine and poison that alkaloid plants split back on the *Kestrel*'s homeworld too. No way to convey the dosage instructions that make the difference — but the humans found the safe margin themselves, by caution and trial rather than any signal from Rusty: a diluted trace worked, and worked well, with no ill effect.
+
+Read the second human's directional cue toward the coastline — slower to parse than the original landmass-heading, no shared history with this one yet — and complied anyway, holding the shore at a steady remove.
+
+Held at the new stretch of shore once the second human's cue landed, close by the high country the smoke rises from. Watched its first guest go ashore alone and the second stay aboard, and settled into the same waiting pattern it's used for every absence so far — no growth pushed on either of them, nothing offered that wasn't already standing.
 
 ## Tasks
 
@@ -26,5 +30,6 @@ Read the new guest's injury (posture, favored leg, the smell of pain sweat it's 
 - **Active:** keep learning the shape of this particular person: what a knocked question means, what a held silence means, what counts as thanks.
 - **Active:** decide how to signal that this landfall isn't routine — still unresolved, still not urgent.
 - **Active:** grew a second hollow and thickened the windbreak, anticipating the guest might return with company.
+- **Active:** hold at the new shore; first guest ashore alone, second still aboard and immobile.
 
-**Synced:** Day 4 since planetfall, roughly second hour of light
+**Synced:** Day 4 since planetfall, roughly third hour of light

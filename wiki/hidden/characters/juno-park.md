@@ -14,6 +14,8 @@ She is now the involuntary guest and absolute fascination of the Sorrai: the fir
 
 **Through Day 3's daylight and dark, to Day 4's dawn:** kept at the salvage in stolen hours, cranky about the lack of proper tools and increasingly convinced the fragment can be coaxed into a short-range transmission if she can rig a power source that isn't "whatever the Sorrai are willing to let her improvise with organic material." No breakthrough yet, but she's stopped calling it hopeless out loud, which the Sorrai, of course, noticed immediately and were insufferably pleased about. Slept in more reasonable stretches this time, no longer fighting it as hard.
 
+**Second and third hours of light:** back at the salvage, muttering, the Sorrai still handing her debris on request like an over-eager lab assistant. No breakthrough on the power source yet, but she's narrowed the problem down out loud enough times that even the Sorrai seem to be following the shape of it now, which she finds almost more annoying than not being understood at all.
+
 ## Tasks
 
 - **Active:** stay alive; learn the rules of wherever she is.
@@ -21,4 +23,4 @@ She is now the involuntary guest and absolute fascination of the Sorrai: the fir
 - **Active:** get the fragment transmitting — power source is the remaining blocker.
 - **Ongoing:** not feel things. (Failing, less than before.)
 
-**Synced:** Day 4 since planetfall, first hour of light (dawn)
+**Synced:** Day 4 since planetfall, roughly third hour of light
