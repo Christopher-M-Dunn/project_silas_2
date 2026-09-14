@@ -1,6 +1,6 @@
 # Index
 
-One line per public page. The World-Keeper maintains this; hidden pages are indexed in `hidden/index.md`, never here.
+One line per public page. The World-Keeper maintains this; hidden pages are indexed in `../hidden/index.md`, never here.
 
 ## World
 

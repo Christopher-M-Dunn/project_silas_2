@@ -27,7 +27,7 @@ Condensed from CLAUDE.md's "Seeding a world from old chats":
 
 1. Branch from `main`: `git checkout -b <world-name> main`. `main` itself is the empty engine — no world lives there.
 2. Give the agent something to seed from — old chat exports dropped in `raw/sources/`, ingested in chronological order — or, if you have nothing to import, just describe the setting in conversation and have it build a world from scratch.
-3. This is a workshop conversation, not play: the agent builds characters, places, and history into `wiki/` as you go, hidden pages included, and sets `wiki/world/clock.md` once seeding is done.
+3. This is a workshop conversation, not play: the agent builds characters, places, and history into `wiki/` as you go, hidden pages included, and sets `wiki/public/world/clock.md` once seeding is done.
 4. Commit, then say "open session" (or `/open`) to take your first turn.
 
 ## The worlds that already exist here
@@ -54,5 +54,5 @@ No frontend, no backend, no database beyond git history, no package manager, not
 **Reading the wiki.** The wiki is a folder of Markdown files linked with standard relative Markdown links (`[Display Text](../folder/target.md)`), so pretty much anything that renders Markdown reads it correctly:
 
 - **GitHub, once pushed** — renders each file and resolves the links, so you can click straight through the wiki from `index.md` the way you'd expect.
-- **Obsidian** — open `wiki/` as a vault. Obsidian resolves standard Markdown links fine, so the graph view and backlinks still work even though the wiki isn't written in Obsidian's own `[[wikilink]]` shorthand.
+- **Obsidian** — open `wiki/public/` as a vault for ordinary reading; `hidden/` is a sibling folder, not inside it, so it's physically absent from that vault, not just off-limits by agreement. Open `wiki/` itself instead when you actually want to see both sides at once, e.g. for troubleshooting. Either way, Obsidian resolves standard Markdown links fine, so the graph view and backlinks still work even though the wiki isn't written in Obsidian's own `[[wikilink]]` shorthand.
 - **A plain web browser or editor preview** — works too, as long as something is actually rendering Markdown to HTML (a raw `.md` file opened directly in a browser just shows text); most editors' built-in preview panes handle this natively.

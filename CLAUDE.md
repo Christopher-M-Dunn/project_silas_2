@@ -14,20 +14,23 @@ The design adapts [karpathy's LLM-wiki pattern](https://gist.github.com/karpathy
 ```
 CLAUDE.md              this file — schema, rituals, conventions
 wiki/                  the world state; you write it, the player reads it
-  index.md             one line per public page
-  log.md               append-only world chronicle
-  world/               rules.md, clock.md, world overview, factions…
-  characters/          one page per character (public knowledge)
-  locations/           one page per location
-  items/               one page per notable item
-  events/              pages for events big enough to outgrow the log
-  hidden/              the spoiler layer — the player agrees NOT to read this
+  public/              everything the player knows — point a player-facing Obsidian vault here
+    index.md           one line per public page
+    log.md             append-only world chronicle
+    world/             rules.md, clock.md, world overview, factions…
+    characters/        one page per character (public knowledge)
+    locations/         one page per location
+    items/             one page per notable item
+    events/            pages for events big enough to outgrow the log
+  hidden/              the spoiler layer — the player agrees NOT to read this; a sibling of public/, not inside it
     index.md           one line per hidden page (kept here so the public index never spoils)
-    characters/…       secrets, true feelings, private plans; mirrors wiki/ structure as needed
+    characters/…       secrets, true feelings, private plans; mirrors public/ structure as needed
 raw/                   primary sources; append-only; you maintain it
   sessions/            one file per play session, the exact play-by-play
   sources/             everything else: shared images, imported old chats, seed data
 ```
+
+`public/` and `hidden/` are siblings, not parent/child, on purpose: a public page can never legitimately link into `hidden/` (see the hidden boundary, below), so the split lets a player point their own tools at `wiki/public/` alone and have `hidden/` be physically absent — not just off-limits by agreement. A stray public→hidden link becomes a visibly broken one instead of a silent leak. Point at the whole `wiki/` tree instead for troubleshooting, where both sides are visible together.
 
 ## Two kinds of conversation
 
@@ -35,9 +38,9 @@ Not every conversation in this repo is play. **Play begins only when the player 
 
 ## World rules and player powers
 
-`wiki/world/rules.md` is the **architecture of the world**: established world rules — things that happen without the player's input (torpor, the length of a day, how the clock runs) — and the formal definitions of the slash commands. **The player owns that page** and it overrides genre convention and everything else in the wiki. The easy test for what belongs there: **rules.md changes only from outside a session** (workshop conversations or direct edits between sessions), never as a move inside the story. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
+`wiki/public/world/rules.md` is the **architecture of the world**: established world rules — things that happen without the player's input (torpor, the length of a day, how the clock runs) — and the formal definitions of the slash commands. **The player owns that page** and it overrides genre convention and everything else in the wiki. The easy test for what belongs there: **rules.md changes only from outside a session** (workshop conversations or direct edits between sessions), never as a move inside the story. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
 
-**Superpowers are story, not rules.** Abilities the player establishes in the fiction (spellcraft, shapeshifting) are recorded on `wiki/characters/player.md` like any other established fact. A slash command may cast an in-story shadow — a player who reveals to an NPC that they can bend time has made that a superpower on their page, over and above the `/ff` machinery — but the command's definition stays in rules.md and the story fact lives on player.md.
+**Superpowers are story, not rules.** Abilities the player establishes in the fiction (spellcraft, shapeshifting) are recorded on `wiki/public/characters/player.md` like any other established fact. A slash command may cast an in-story shadow — a player who reveals to an NPC that they can bend time has made that a superpower on their page, over and above the `/ff` machinery — but the command's definition stays in rules.md and the story fact lives on player.md.
 
 The default rules include **torpor**: when a session closes, the player's body stays in the world, frozen in place, bodily functions slowed to a crawl. However long the gap, they are exactly where they were at close — unless someone in the world physically moved them. NPCs can notice, tend, rob, or relocate a torpid body; that is a world event like any other.
 
@@ -47,7 +50,7 @@ The default rules include **torpor**: when a session closes, the player's body s
 
 1. **Crash check.** If the newest file in `raw/sessions/` has no closing footer, that session ended abruptly: treat its last timestamp as the close time, finish its bookkeeping, and commit before going on.
 2. **Create the session file**: `raw/sessions/YYYY-MM-DD-HHMM.md`, named with the current local date and time, with a header recording the real datetime and the world time at open. The header is written once, at open, and never edited afterward — a save name earned at close belongs to the footer and the commit.
-3. **Read the clock** (`wiki/world/clock.md`) and compute the gap since last close.
+3. **Read the clock** (`wiki/public/world/clock.md`) and compute the gap since last close.
 4. **Run Catch-up** (below) on the gap.
 5. **Cold open.** Drop the player straight into a scene, waking from torpor wherever their body is. Weave the gap's visible consequences into the prose — the forge is cold, Maren's arm is splinted, someone has draped a blanket over you. Show, don't recap. What happened while they were away is discovered through play.
 
@@ -83,7 +86,7 @@ Push only when the player asks.
 
 Time runs under two regimes:
 
-- **Between sessions: real time, one to one.** From session close to the next open, elapsed real time is elapsed world time — this is the gap that torpor covers — adjusted by freezes and fast-forwards. `wiki/world/clock.md` makes it computable: it records the current world date and time, the real instant at which that was true, and whether the clock is frozen.
+- **Between sessions: real time, one to one.** From session close to the next open, elapsed real time is elapsed world time — this is the gap that torpor covers — adjusted by freezes and fast-forwards. `wiki/public/world/clock.md` makes it computable: it records the current world date and time, the real instant at which that was true, and whether the clock is frozen.
 - **In session: narrative time.** The clock follows the story, not the wall. Each exchange advances world time by however long its events would reasonably take — a five-second sword stroke costs five seconds no matter how many real minutes the player spent typing it, while "I regale Kael with tales of my adventures" carries the evening late. The Narrator judges the passage and keeps it consistent; the player can also direct it outright ("an hour later…"). Real-world pauses between messages mean nothing to the scene.
 
 The world keeps its own calendar; only the between-session *rate* is borrowed from reality.
