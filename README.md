@@ -2,6 +2,10 @@
 
 A text-based, persistent-world roleplaying game with no application. The entire game runs inside a coding-agent conversation: the wiki (`wiki/`) *is* the world state, `raw/` is the append-only ground truth everything is compiled from, and [`CLAUDE.md`](CLAUDE.md) is the engine's own spec — the rituals that turn an LLM coding agent into both the Narrator and a silent World-Keeper.
 
+If you've played tabletop Dungeons & Dragons, the shape of this will be familiar: the agent is the whole table by itself, acting as Dungeon Master — narrating the world, playing every NPC, adjudicating outcomes — while also keeping the campaign notes a human DM would keep between sessions. The one real difference is how much of the pen the player holds. By default here, you have considerably more narrative authority than a D&D player would at a real table: you can narrate outcomes and specifics in your own turns, and — unless the world was seeded to say otherwise — you can describe what NPCs say and do yourself, or introduce a new named character just by mentioning them, and the agent will generally run with it. If you'd rather play something closer to a traditional table, you can ask for that structure during seeding — for example, that only the agent may introduce new characters, or that the player may narrate their own character only, never an NPC's words or actions. Both of those constraints, and others like them, are yours to request; neither is the default.
+
+**A caution that follows from this:** the constraints above are structural — load-bearing for how the whole story gets told from then on. They're easy to set at seeding, before any history depends on them, and much riskier to change once a campaign is already running: retrofitting a new rule onto continuity that was written under the old one can contradict things already on the record. If you want to change something structural mid-story, expect to do it deliberately and outside a session (see CLAUDE.md's note that `rules.md` changes only from outside play), and to have the agent check the existing wiki for conflicts rather than just flipping the rule.
+
 ## Start here
 
 **Read [`CLAUDE.md`](CLAUDE.md) in full before doing anything else.** It's the actual documentation — repository layout, session rituals (opening, playing, closing), the hidden/public boundary, page conventions, time rules, and the git/branch model that makes each world its own branch. This README doesn't duplicate any of that; it's orientation for whatever CLAUDE.md doesn't cover, which turns out to be not much.
@@ -10,7 +14,12 @@ A text-based, persistent-world roleplaying game with no application. The entire 
 
 - Git, and a clone of this repo.
 - [Claude Code](https://claude.com/claude-code) (CLI, desktop app, or an equivalent agent — see "Alternatives," below) with access to a Claude model, able to read/write files, run a shell, and use git.
-- Nothing else. No build step, no dependencies, no server. The "engine" is CLAUDE.md's instructions plus an agent willing to follow them.
+- **Permissions matter here more than in a typical coding project.** The agent needs full automatic, silent read *and* write access to the `wiki/` folder (and `raw/`, where it logs every session) — no per-file confirmation prompts. CLAUDE.md's rituals depend on this explicitly: bookkeeping happens invisibly, several files at a time, every single turn, and a permission prompt on each one breaks both the immersion and the rule that only the Narrator's prose is ever shown. Configure your agent to auto-approve file edits (and ideally git commands) within this repo before you start.
+- Nothing else beyond that. No build step, no dependencies, no server. The "engine" is CLAUDE.md's instructions plus an agent willing to follow them.
+
+## Editing the wiki directly
+
+Every file under `wiki/` is plain Markdown, so hand-editing one will "work" in the sense that the file changes. It's strongly discouraged anyway: a direct edit skips the logging (nothing lands in `raw/`, nothing appends to `log.md`) and skips the dependency updates the agent does automatically — index lines, cross-links, neighboring pages that reference the thing you just changed, the hidden/public boundary. Ask the agent to make the change instead, even outside a session in a workshop conversation. It's the same edit, just one that keeps the rest of the wiki honest.
 
 ## Starting a new world
 
