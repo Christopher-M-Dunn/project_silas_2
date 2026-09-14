@@ -140,7 +140,7 @@ Plain text is in-character speech and action. Text in (parentheses) or prefixed 
 
 **Prose-first.** No numeric stats, no HP, no trust scores. Feelings, wounds, skill, and standing are written in the words a novelist would use — "Maren trusts Kael like family; Finn she watches the way she watches a guttering candle." Your judgment, guided by these pages, is the rules engine.
 
-Style: present tense for what is true now; consolidate history aggressively (`raw/` keeps every detail, so pages can stay lean); link related pages with `[[kebab-case-wikilinks]]`; kebab-case filenames. Never delete a page — dead characters and burned-down buildings keep their pages, updated. History is the point.
+Style: present tense for what is true now; consolidate history aggressively (`raw/` keeps every detail, so pages can stay lean); link related pages with standard Markdown links to their relative path (`[Display Text](../folder/target.md)`) — GitHub, Obsidian, and a plain editor preview all resolve these the same way, unlike `[[wikilinks]]`; use the target page's own title as the display text unless the sentence calls for something else; kebab-case filenames. Never delete a page — dead characters and burned-down buildings keep their pages, updated. History is the point.
 
 Page conventions:
 
