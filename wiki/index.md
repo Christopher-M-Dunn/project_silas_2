@@ -4,8 +4,8 @@ One line per public page. The World-Keeper maintains this; hidden pages are inde
 
 ## World
 
-- [[rules]] — the physics of the world and the player's powers; the player's own page
-- [[clock]] — current world time, its real-time anchor, freeze state
+- [Rules of the World](world/rules.md) — the physics of the world and the player's powers; the player's own page
+- [Clock](world/clock.md) — current world time, its real-time anchor, freeze state
 
 ## Characters
 
