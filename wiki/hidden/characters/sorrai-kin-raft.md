@@ -2,9 +2,9 @@
 
 *Unknown to the player. Draft, subject to retcon until narrated.*
 
-The [[sorrai|Sorrai]] kin-raft that felt the pod's descent as one of four points of animal terror streaking down the dark. They have been arguing since, in their wordless way, about whether the feeling was worth chasing — not the wreckage, which means nothing to them, but the mind. They resolved it in favor of going.
+The [Sorrai](../world/sorrai.md) kin-raft that felt the pod's descent as one of four points of animal terror streaking down the dark. They have been arguing since, in their wordless way, about whether the feeling was worth chasing — not the wreckage, which means nothing to them, but the mind. They resolved it in favor of going.
 
-Because Sorrai track feeling, not position, their heading has followed the player, not the pod: when the frightened mind moved from the water to the [[first-ktar|raft]], their course corrected without any of them quite noticing they'd done it. They are still distant — far enough that from raft height, in the right light, they read as no more than a brief unnatural line on the water, there and gone. They have no way to know they were seen at all.
+Because Sorrai track feeling, not position, their heading has followed the player, not the pod: when the frightened mind moved from the water to the [raft](first-ktar.md), their course corrected without any of them quite noticing they'd done it. They are still distant — far enough that from raft height, in the right light, they read as no more than a brief unnatural line on the water, there and gone. They have no way to know they were seen at all.
 
 Their pace is unhurried but steady; a kin-raft does not rush toward an unknown feeling, but it does not stop, either. The frightened mind's raft has now turned and is moving toward Veth shore under its own power — a heading that happens to shorten their crossing, though the Sorrai have no way to know why it moved, only that it did.
 
@@ -26,7 +26,7 @@ When the new mind turned to go, wordless gesture of departure and all, they let 
 
 Sent calm, same as the first time with Kristoff, once the new mind closed its eyes and stopped fighting the read — deliberate and total, the second projection any of them have ever aimed at this kind of mind. It landed harder than expected: this one's control turned out to be a shell over something wound much tighter than the first mind's, and cracking it even slightly registered, to all five at once, as something closer to relief than shock. None of them have said so aloud (they don't have aloud), but the read has shifted their working theory — this species may not lack feeling, the way the first read suggested; some of them may simply have learned to bury it deeper.
 
-**Through the next hour, shore to shore:** followed [[first-ktar|Rusty]] along the coast without needing to be asked twice this time, reading the familiar mind's intent before the raft itself finished turning. Held off projecting anything further at the new mind, the argument about *how much* still unresolved. Watched the familiar mind go ashore alone at the new landing and the new mind stay behind, immobile — read the second one's stillness as something between caution and simple inability, and settled into holding the shallows rather than push further contact while it waited.
+**Through the next hour, shore to shore:** followed [Rusty](first-ktar.md) along the coast without needing to be asked twice this time, reading the familiar mind's intent before the raft itself finished turning. Held off projecting anything further at the new mind, the argument about *how much* still unresolved. Watched the familiar mind go ashore alone at the new landing and the new mind stay behind, immobile — read the second one's stillness as something between caution and simple inability, and settled into holding the shallows rather than push further contact while it waited.
 
 ## Tasks
 

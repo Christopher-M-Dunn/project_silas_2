@@ -7,7 +7,7 @@
 | **Frozen** | **yes** — since 2026-08-30 20:13 PDT |
 | **Last session close** | `raw/sessions/2026-08-26-1814.md` |
 
-This world's day is **14 hours** (see [[rules]]): seven hours of amber light, seven of dark. The crew reckoning is **days since planetfall** — the crash is Day 1. Local calendars, if the natives keep any, are unknown.
+This world's day is **14 hours** (see [Rules of the World](rules.md)): seven hours of amber light, seven of dark. The crew reckoning is **days since planetfall** — the crash is Day 1. Local calendars, if the natives keep any, are unknown.
 
 **Hours are counted per phase, from the dawn or dusk that started it** — "Day 2, third hour of light," "Day 2, second hour of dark" — not as a single 0–14 count through the day and not from midnight. The Day number itself increments at each dawn. Day 1 is the one irregular day: the crash landed the crew mid-cycle, partway through a stretch of light already in progress (length unknown — hence early log entries just say "~2 hours in," hours since the crash itself, not since that light phase truly began), then the first full dark (7 hours) before the first dawn. From that first dawn on, every day runs a clean seven hours of light, seven of dark, dawn to dawn.
 

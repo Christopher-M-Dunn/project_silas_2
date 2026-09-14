@@ -1,6 +1,6 @@
 # The Veth — HIDDEN
 
-The technical people of [[ktarluud|Ktarluud]]. Slight, long-limbed, hairless, with skin like polished slate and large still eyes adapted to the amber gloom; they number few — perhaps tens of thousands — and dwell on and *inside* the fixed lands, the stony mountain-islands rooted to the seabed. Their halls are carved and grown at once: stone persuaded into shape by tools the *Kestrel*'s crew would struggle to recognize as tools.
+The technical people of [Ktarluud](ktarluud.md). Slight, long-limbed, hairless, with skin like polished slate and large still eyes adapted to the amber gloom; they number few — perhaps tens of thousands — and dwell on and *inside* the fixed lands, the stony mountain-islands rooted to the seabed. Their halls are carved and grown at once: stone persuaded into shape by tools the *Kestrel*'s crew would struggle to recognize as tools.
 
 Their sciences run centuries past human spaceflight in materials, biology, and signal-craft — and are strangely indifferent to flight itself; the sky here hides its stars, and the Veth have never much missed them. Given a reason and a little time with a subject, they could puzzle out a human language entirely — first through instruments, then through a made thing, small and painless, that renders communication seamless. Whether and when they offer that is theirs to decide.
 

@@ -1,6 +1,6 @@
 # The Sorrai — HIDDEN
 
-The feeling-people of [[ktarluud|Ktarluud]]. Amphibious, seal-sleek, sized between an otter and a human, moving in rafts of kin across the open water and hauling out on the [[ktar|Ktar]] to trade, sing, and sleep. Their voices are limited; their *presence* is not. A Sorrai reads every emotion in reach — and projects its own, or another's, with the fidelity of a mirror: comfort, grief, joy, trust, malice. Among them, deception is a physical impossibility, and the concept arrives only when they meet minds that can lie.
+The feeling-people of [Ktarluud](ktarluud.md). Amphibious, seal-sleek, sized between an otter and a human, moving in rafts of kin across the open water and hauling out on the [Ktar](ktar.md) to trade, sing, and sleep. Their voices are limited; their *presence* is not. A Sorrai reads every emotion in reach — and projects its own, or another's, with the fidelity of a mirror: comfort, grief, joy, trust, malice. Among them, deception is a physical impossibility, and the concept arrives only when they meet minds that can lie.
 
 This makes them the world's diplomats, its healers of quarrels, and its early-warning system. Nothing with a heart stays a stranger: within moments a Sorrai knows what you feel; within days, what you tend to feel; within a season, roughly who you are — all without a word.
 

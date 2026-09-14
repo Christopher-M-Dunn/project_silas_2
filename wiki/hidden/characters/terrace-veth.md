@@ -2,7 +2,7 @@
 
 *Unknown to the player: at least one Veth tends this shore and has been in contact range since dawn. Draft, subject to retcon until narrated.*
 
-Whoever gardens the terraces the player climbed — one Veth, maybe a small household of them, not part of the wreck survey [[roland-voss|watching the Kestrel]] elsewhere on the coast. Noticed the newcomer overnight (raft-sounds where no raft should be lingering, movement at dawn) and chose the oldest, safest Veth overture: left the [[spiral-token]] where a searching hand would find it, then withdrew to watch from just inside the doorway rather than show a face.
+Whoever gardens the terraces the player climbed — one Veth, maybe a small household of them, not part of the wreck survey [watching the Kestrel](../../characters/roland-voss.md) elsewhere on the coast. Noticed the newcomer overnight (raft-sounds where no raft should be lingering, movement at dawn) and chose the oldest, safest Veth overture: left the [Spiral Token](../../items/spiral-token.md) where a searching hand would find it, then withdrew to watch from just inside the doorway rather than show a face.
 
 The newcomer took the token, searched further, and — unusually, for anything that's ever washed up here — called out. Loudly, repeatedly, in open air, no attempt at stealth at all. That alone told the watcher something: whatever this is, it isn't hiding and isn't hunting. Answered in kind, in the safest way available: a single resonant tone through the hall stone (felt more than heard, deliberately not language, since none exists yet between them) and a kindled light left visible and steady, an invitation without commitment — *I heard you. I am here. Come no faster than you like.*
 
