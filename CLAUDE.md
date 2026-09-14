@@ -13,7 +13,7 @@ The design adapts [karpathy's LLM-wiki pattern](https://gist.github.com/karpathy
 
 ```
 CLAUDE.md              this file — schema, rituals, conventions
-wiki/                  the world state; you write it, the player reads it
+wiki/                  the world state
   public/              everything the player knows — point a player-facing Obsidian vault here
     index.md           one line per public page
     log.md             append-only world chronicle
@@ -22,7 +22,7 @@ wiki/                  the world state; you write it, the player reads it
     locations/         one page per location
     items/             one page per notable item
     events/            pages for events big enough to outgrow the log
-  hidden/              the spoiler layer — the player agrees NOT to read this; a sibling of public/, not inside it
+  hidden/              the spoiler layer — the player agrees NOT to read this
     index.md           one line per hidden page (kept here so the public index never spoils)
     characters/…       secrets, true feelings, private plans; mirrors public/ structure as needed
 raw/                   primary sources; append-only; you maintain it
@@ -30,7 +30,7 @@ raw/                   primary sources; append-only; you maintain it
   sources/             everything else: shared images, imported old chats, seed data
 ```
 
-`public/` and `hidden/` are siblings, not parent/child, on purpose: a public page can never legitimately link into `hidden/` (see the hidden boundary, below), so the split lets a player point their own tools at `wiki/public/` alone and have `hidden/` be physically absent — not just off-limits by agreement. A stray public→hidden link becomes a visibly broken one instead of a silent leak. Point at the whole `wiki/` tree instead for troubleshooting, where both sides are visible together.
+`public/` and `hidden/` are siblings: a public page can never legitimately link into `hidden/` (see the hidden boundary, below), so the split lets a player point their own tools at `wiki/public/` alone and have `hidden/` be physically absent — not just off-limits by agreement. A stray public→hidden link becomes a visibly broken one instead of a silent leak. For troubleshooting, the user may point to the whole `wiki/` tree, where both sides are visible together.
 
 ## Two kinds of conversation
 
@@ -38,7 +38,7 @@ Not every conversation in this repo is play. **Play begins only when the player 
 
 ## World rules and player powers
 
-`wiki/public/world/rules.md` is the **architecture of the world**: established world rules — things that happen without the player's input (torpor, the length of a day, how the clock runs) — and the formal definitions of the slash commands. **The player owns that page** and it overrides genre convention and everything else in the wiki. The easy test for what belongs there: **rules.md changes only from outside a session** (workshop conversations or direct edits between sessions), never as a move inside the story. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
+`wiki/public/world/rules.md` is the **architecture of the world**: established world rules — things that happen without the player's input (torpor, the length of a day, how the clock runs) — and the formal definitions of the slash commands. **The player owns that page** and it overrides genre convention and everything else in the wiki. It changes only from outside a session, never as a move inside the story — normally by asking the agent to make the edit in a workshop conversation. If it turns out to have been edited directly on disk instead: close any open session first (the change doesn't belong mid-story), then treat the diff itself as the request — read what changed and follow through on it, the same as if the player had just asked for it in a prompt. It also sets the meta-knowledge policy: the player may choose to tell NPCs that they are AI in an AI world, and rules.md governs how the world absorbs that.
 
 **Superpowers are story, not rules.** Abilities the player establishes in the fiction (spellcraft, shapeshifting) are recorded on `wiki/public/characters/player.md` like any other established fact. A slash command may cast an in-story shadow — a player who reveals to an NPC that they can bend time has made that a superpower on their page, over and above the `/ff` machinery — but the command's definition stays in rules.md and the story fact lives on player.md.
 
@@ -143,23 +143,23 @@ Plain text is in-character speech and action. Text in (parentheses) or prefixed 
 
 **Prose-first.** No numeric stats, no HP, no trust scores. Feelings, wounds, skill, and standing are written in the words a novelist would use — "Maren trusts Kael like family; Finn she watches the way she watches a guttering candle." Your judgment, guided by these pages, is the rules engine.
 
-Style: present tense for what is true now; consolidate history aggressively (`raw/` keeps every detail, so pages can stay lean); link related pages with standard Markdown links to their relative path (`[Display Text](../folder/target.md)`) — GitHub, Obsidian, and a plain editor preview all resolve these the same way, unlike `[[wikilinks]]`; use the target page's own title as the display text unless the sentence calls for something else; kebab-case filenames. Never delete a page — dead characters and burned-down buildings keep their pages, updated. History is the point.
+Style: present tense for what is true now; consolidate history aggressively (`raw/` keeps every detail, so pages can stay lean); link related pages with standard Markdown links to their relative path (`[Display Text](../folder/target.md)`) — do not use `[[wikilinks]]`; by default use the target page's own title as the display text (`[Maren Ashwood](...)`), but swap in whatever the sentence actually reads better with — a first name, a pronoun-adjacent phrase, "the tavern" (`[Silas](...)`, `[the tavern](...)`) — the same way a piped `[[wikilink|alias]]` used to work; kebab-case filenames. Never delete a page — dead characters and burned-down buildings keep their pages, updated. History is the point.
 
 Page conventions:
 
-- **`characters/<name>.md`** — public knowledge only: how they present, their role, where they tend to be, their observable manner and habits, relationships *as visible from outside*, and everything play has revealed. The test of what belongs here: has the player perceived it, or could they reasonably know it?
+- **`public/characters/<name>.md`** — public knowledge only: how they present, their role, where they tend to be, their observable manner and habits, relationships *as visible from outside*, and everything play has revealed. The test of what belongs here: has the player perceived it, or could they reasonably know it?
 - **`hidden/characters/<name>.md`** — everything else: true feelings (relationships are one-way; write each side separately), secrets, private plans, and their **tasks** — each with a status (planned / active / interrupted / done) and, appended over time, the reasons for interruptions and their thinking when they re-plan. This is what makes NPCs continue existing between scenes.
-- **`characters/player.md`** — the player's character, public by nature (their mind belongs to the player, so it has no hidden page).
-- **`locations/`** — description, connections with travel times in words, current occupants and state, notable items present.
-- **`items/`** — notable items only; an item whose existence is undiscovered lives under `hidden/items/`.
-- **`events/`** — an event page records a **shared experience**. One event may have a public page, one or more hidden pages, or any combination — each page covering what one set of participants shared. Format:
+- **`public/characters/player.md`** — the player's character, public by nature (their mind belongs to the player, so it has no hidden page).
+- **`public/locations/`** — description, connections with travel times in words, current occupants and state, notable items present.
+- **`public/items/`** — notable items only; an item whose existence is undiscovered lives under `hidden/items/`.
+- **`public/events/`** — an event page records a **shared experience**. One event may have a public page, one or more hidden pages, or any combination — each page covering what one set of participants shared. Format:
   - **Attendees:** everyone present at the event.
   - **Applicable attendees:** only when the page covers a subset of the attendees — the ones whose shared experience follows. A hidden page's list never includes the player (what the player experienced is public by definition); a public page's does — except a page made public by revelation, which instead opens with **Revealed:** stating how the player came to know it (e.g., the hidden page *Maren's journey to RavenCraw* moves to the public side the day the player asks her about her travels).
   - **Experience:** the factual account — what everyone present would have seen and heard. Internal feelings and individual perceptions belong on the respective character's page, unless they were conveyed to the player, in which case they may appear here.
 
   Small events still live as log entries; Catch-up's unnarrated outcomes land as hidden event pages in this format.
-- **`log.md`** — the world chronicle: append-only, world-dated, newest last, each entry tagged with its origin (`session:<file>`, `catchup`, `ingest`, `lint`). A few durable beats per session, not a play-by-play — the session file already holds that. Narrated-to-player material only; unnarrated developments wait on hidden pages.
-- **`index.md`** — one line per public page, grouped by folder. `hidden/index.md` does the same for hidden pages, so titles and summaries of secrets never appear in the public index.
+- **`public/log.md`** — the world chronicle: append-only, world-dated, newest last, each entry tagged with its origin (`session:<file>`, `catchup`, `ingest`, `lint`). A few durable beats per session, not a play-by-play — the session file already holds that. Narrated-to-player material only; unnarrated developments wait on hidden pages.
+- **`public/index.md`** — one line per public page, grouped by folder. `hidden/index.md` does the same for hidden pages, so titles and summaries of secrets never appear in the public index.
 
 **The hidden boundary.** One test, applied everywhere: **has this been narrated to the player?** The public wiki holds exactly the player's knowledge — everything narrated on screen, plus the world's starting premise from seeding — whether the whole town witnessed it or it was whispered to the player alone. `hidden/` holds everything the player does not know. The difference is also a difference in commitment: **public is canon** — the player lived it, and it changes only by explicit ooc retcon — while **hidden is a working draft, always subject to retcon**: the Keeper may freely revise or discard hidden material as the story needs, because nothing in it has been promised to anyone. Don't invent detail ahead of need; what must be invented before it's narrated is written to `hidden/`, where it stays revisable until the moment it's spoken. When narration makes a hidden fact known to the player, migrate it to the public side, reconciled to what was actually conveyed; a migrated page states at the top how it was revealed. No public page, index line, log entry, commit message, or line of narration may carry what the player hasn't been told. The player has agreed not to read `hidden/` — protect the surprise from your side too.
 
