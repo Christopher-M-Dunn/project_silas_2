@@ -6,9 +6,9 @@ In Stonefall, Kael was contract-smith to a man named **Dain Veller**, a "merchan
 
 ## True feelings
 
-- **[[maren-ashwood]]** — she fed him when he arrived hungry and broke; he would take a blade for her without thinking. His deepest fear is that his past will arrive in her taproom.
-- **[[sister-lenara]]** — he is certain she already knows everything, which is exactly why he avoids her. Being forgiven before confessing feels like cheating.
-- **[[finn-quickfoot]]** — finds him funny, and recognizes the walk of a man who checks the door twice. Takes him for a fellow runner from something.
+- **[Maren Ashwood](../../characters/maren-ashwood.md)** — she fed him when he arrived hungry and broke; he would take a blade for her without thinking. His deepest fear is that his past will arrive in her taproom.
+- **[Sister Lenara](../../characters/sister-lenara.md)** — he is certain she already knows everything, which is exactly why he avoids her. Being forgiven before confessing feels like cheating.
+- **[Finn Quickfoot](../../characters/finn-quickfoot.md)** — finds him funny, and recognizes the walk of a man who checks the door twice. Takes him for a fellow runner from something.
 
 ## The alloy
 

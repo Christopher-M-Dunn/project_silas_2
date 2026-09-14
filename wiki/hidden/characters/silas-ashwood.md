@@ -2,7 +2,7 @@
 
 ## True feelings
 
-- **[[player|Christopher]]** — trusts him with something close to desperation, the trust of a drowning man toward whatever's floating nearby. Agreed to the time-skip and the secrecy oath without really weighing it, because the alternative was another hour alone with her voice. Doesn't fully understand what Christopher is, and is frightened of the answer as much as he wants it.
+- **[Christopher](../../characters/player.md)** — trusts him with something close to desperation, the trust of a drowning man toward whatever's floating nearby. Agreed to the time-skip and the secrecy oath without really weighing it, because the alternative was another hour alone with her voice. Doesn't fully understand what Christopher is, and is frightened of the answer as much as he wants it.
 - **Maren** — eleven years of guilt he never resolved, walked away from her and their grief both. Seeing her in the doorway is the thing he wanted most and dreaded most in equal measure — wanted because he's been alone with this for too long, dreaded because now she's in it too, and he never wanted that.
 - **The entity in the book** — genuine terror, worn down to something closer to exhaustion than fear. Has come to half-believe things she's said to him during the long nights, which frightens him more than the things themselves.
 

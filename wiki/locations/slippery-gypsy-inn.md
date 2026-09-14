@@ -1,6 +1,6 @@
 # The Slippery Gypsy Inn
 
-An inn in a small crooked square in [[ravencraw|RavenCraw]], signed with a painted dancer mid-kick. Run by innkeeper [[karl]], who knows [[player|Christopher]] by name. [[silas-ashwood|Silas Ashwood]] lodges here.
+An inn in a small crooked square in [RavenCraw](ravencraw.md), signed with a painted dancer mid-kick. Run by innkeeper [Karl](../characters/karl.md), who knows [Christopher](../characters/player.md) by name. [Silas Ashwood](../characters/silas-ashwood.md) lodges here.
 
 Common room: a banked fire, two chairs pulled close to it, a bar Karl keeps busy wiping down at all hours.
 

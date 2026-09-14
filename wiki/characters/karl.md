@@ -1,6 +1,6 @@
 # Karl
 
-Innkeeper of the [[slippery-gypsy-inn|Slippery Gypsy Inn]] in [[ravencraw|RavenCraw]]. Knows [[player|Christopher]] by name and face — the only one who's ever come round asking after **Silas Ashwood** by name in all the time Silas has lodged there. Conscientious about his guests: has been checking on Silas directly rather than just leaving him be.
+Innkeeper of the [Slippery Gypsy Inn](../locations/slippery-gypsy-inn.md) in [RavenCraw](../locations/ravencraw.md). Knows [Christopher](player.md) by name and face — the only one who's ever come round asking after **Silas Ashwood** by name in all the time Silas has lodged there. Conscientious about his guests: has been checking on Silas directly rather than just leaving him be.
 
 Reports that Silas hasn't left his room in about three days — no meals, no visits to the privy that Karl's seen. Knocked twice: the first time Silas asked him to leave the tray and go; the second time, no answer, but Karl heard him inside, talking — arguing, by the sound of it — with no one else in the room. Worried enough to ask Christopher outright whether Silas is in some kind of trouble.
 
